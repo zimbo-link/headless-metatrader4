@@ -38,15 +38,23 @@ Xvfb $DISPLAY -screen $SCREEN_NUM $SCREEN_WHD \
     +extension RENDER \
     &> /tmp/xvfb.log &
 XVFB_PID=$!
+#sleep 2
+#x11vnc -bg -nopw -rfbport 5900 -forever -xkb -o /tmp/x11vnc.log
 sleep 2
-
 # @TODO Use special argument to pass value "startup.ini"
+nl=$'\n'
+#mv experts.ini config/
+echo "${nl}Login=$MT4_ACCOUNT${nl}Password=$MT4_PASSWORD${nl}" >> startup.ini 
 wine terminal /portable startup.ini &
+node MQL4/Node/server.js &
 TERMINAL_PID=$!
 
 # Wait end of terminal
 wait $TERMINAL_PID
 # Wait end of all wine processes
+#
+#Login=1755661
+#Password=8Rrkck2Q
 /docker/waitonprocess.sh wineserver
 # Wait end of Xvfb
 wait $XVFB_PID

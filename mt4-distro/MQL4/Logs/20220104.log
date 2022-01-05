@@ -1,0 +1,195 @@
+0	19:39:04.225	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	19:39:04.225	Neverland_301 EURUSD,H1 inputs: LotType=1; hostIp=localhost; hostPort=8080; TradeComment=MONKEYONE; MagicNumber=0; Slippage=10; Lots=0.01; Symbols=AUDCAD,AUDCHF,AUDJPY,CADCHF,CADJPY,CHFJPY,EURAUD,EURCAD,EURCHF,EURGBP,EURJPY,EURUSD,GBPAUD,GBPCAD,GBPCHF,GBPUSD,GBPJPY,NZDCAD,NZDJPY,NZDUSD,USDCAD,USDCHF,USDJPY; 
+0	23:21:58.416	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	23:21:58.416	Neverland_301 EURUSD,H1 inputs: LotType=1; hostIp=localhost; hostPort=8080; TradeComment=MONKEYONE; MagicNumber=0; Slippage=10; Lots=0.01; Symbols=AUDCAD,AUDCHF,AUDJPY,CADCHF,CADJPY,CHFJPY,EURAUD,EURCAD,EURCHF,EURGBP,EURJPY,EURUSD,GBPAUD,GBPCAD,GBPCHF,GBPUSD,GBPJPY,NZDCAD,NZDJPY,NZDUSD,USDCAD,USDCHF,USDJPY; 
+0	23:35:12.931	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	23:35:12.931	Neverland_301 EURUSD,H1 inputs: LotType=1; hostIp=localhost; hostPort=8080; TradeComment=MONKEYONE; MagicNumber=0; Slippage=10; Lots=0.01; Symbols=AUDCAD,AUDCHF,AUDJPY,CADCHF,CADJPY,CHFJPY,EURAUD,EURCAD,EURCHF,EURGBP,EURJPY,EURUSD,GBPAUD,GBPCAD,GBPCHF,GBPUSD,GBPJPY,NZDCAD,NZDJPY,NZDUSD,USDCAD,USDCHF,USDJPY; 
+3	23:35:12.994	Neverland_301 EURUSD,H1: cannot refresh history [4073]
+0	23:35:13.112	Neverland_301 EURUSD,H1: initialized
+0	23:35:35.514	Neverland_301 EURUSD,H1: initialized
+0	23:36:50.655	Neverland_301 EURUSD,H1: uninit reason 1
+3	23:36:50.657	Neverland_301 EURUSD,H1: 115 undeleted objects left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 1 object of type CProcess left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 1 object of type CDisplay left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 1 object of type CData left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 28 objects of type CTrade left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 56 objects of type CBuffer left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 28 objects of type CVelocity left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 2 leaked strings left
+3	23:36:50.657	Neverland_301 EURUSD,H1: 48996 bytes of leaked memory
+0	23:36:50.661	Expert Neverland_301 EURUSD,H1: removed
+0	23:36:50.679	Expert test EURUSD,H1: loaded successfully
+0	23:36:56.351	test EURUSD,H1 inputs: hostIp=localhost; hostPort=8080; 
+0	23:36:57.863	test EURUSD,H1: initialized
+0	23:36:58.778	test EURUSD,H1: initialized
+0	23:37:42.525	test EURUSD,H1: uninit reason 2
+0	23:37:42.529	Expert test EURUSD,H1: removed
+0	23:37:42.543	Expert test EURUSD,H1: loaded successfully
+0	23:37:47.329	test EURUSD,H1: initialized
+0	23:37:48.840	test EURUSD,H1: initialized
+0	23:38:15.440	test EURUSD,H1: uninit reason 2
+0	23:38:15.443	Expert test EURUSD,H1: removed
+0	23:38:15.466	Expert test EURUSD,H1: loaded successfully
+0	23:38:18.562	test EURUSD,H1: initialized
+0	23:38:20.261	test EURUSD,H1: initialized
+0	23:38:29.118	test EURUSD,H1: uninit reason 2
+0	23:38:29.121	Expert test EURUSD,H1: removed
+0	23:38:29.136	Expert test EURUSD,H1: loaded successfully
+0	23:38:32.335	test EURUSD,H1: initialized
+0	23:38:33.345	test EURUSD,H1: initialized
+0	23:43:52.314	test EURUSD,H1: uninit reason 2
+0	23:43:52.316	Expert test EURUSD,H1: removed
+0	23:43:52.333	Expert test EURUSD,H1: loaded successfully
+0	23:43:52.388	test EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:43:52.388	test EURUSD,H1: This is the POST result: 1
+0	23:43:52.389	test EURUSD,H1: initialized
+0	23:43:52.398	test EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:43:52.398	test EURUSD,H1: This is the POST result: 1
+0	23:43:52.398	test EURUSD,H1: initialized
+0	23:45:32.031	test EURUSD,H1: uninit reason 1
+0	23:45:32.035	Expert test EURUSD,H1: removed
+0	23:45:32.048	Expert test2 EURUSD,H1: loaded successfully
+0	23:45:35.332	test2 EURUSD,H1 inputs: hostIp=localhost; hostPort=8080; 
+0	23:45:35.361	test2 EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:45:35.361	test2 EURUSD,H1: This is the POST result: 1
+0	23:45:35.362	test2 EURUSD,H1: initialized
+0	23:45:35.364	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:45:35.364	test2 EURUSD,H1: This is the POST result: 0
+0	23:45:35.364	test2 EURUSD,H1: initialized
+0	23:46:01.479	test2 EURUSD,H1: uninit reason 2
+0	23:46:01.483	Expert test2 EURUSD,H1: removed
+0	23:46:01.504	Expert test2 EURUSD,H1: loaded successfully
+0	23:46:01.520	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:46:01.520	test2 EURUSD,H1: This is the POST result: 0
+0	23:46:01.520	test2 EURUSD,H1: initialized
+0	23:46:01.523	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:46:01.523	test2 EURUSD,H1: This is the POST result: 0
+0	23:46:01.524	test2 EURUSD,H1: initialized
+0	23:46:41.911	test2 EURUSD,H1: uninit reason 2
+0	23:46:41.915	Expert test2 EURUSD,H1: removed
+0	23:46:41.929	Expert test2 EURUSD,H1: loaded successfully
+0	23:46:41.955	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:46:41.955	test2 EURUSD,H1: This is the POST result: 0
+0	23:46:41.955	test2 EURUSD,H1: initialized
+0	23:46:41.958	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:46:41.958	test2 EURUSD,H1: This is the POST result: 0
+0	23:46:41.958	test2 EURUSD,H1: initialized
+0	23:51:26.983	test2 EURUSD,H1: uninit reason 2
+0	23:51:26.987	Expert test2 EURUSD,H1: removed
+0	23:51:26.997	Expert test2 EURUSD,H1: loaded successfully
+0	23:51:27.022	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:51:27.022	test2 EURUSD,H1: This is the POST result: 0
+0	23:51:27.022	test2 EURUSD,H1: initialized
+0	23:51:27.025	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:51:27.025	test2 EURUSD,H1: This is the POST result: 0
+0	23:51:27.025	test2 EURUSD,H1: initialized
+0	23:51:47.913	test2 EURUSD,H1: uninit reason 2
+0	23:51:47.915	Expert test2 EURUSD,H1: removed
+0	23:51:47.928	Expert test2 EURUSD,H1: loaded successfully
+0	23:51:47.944	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:51:47.944	test2 EURUSD,H1: This is the POST result: 0
+0	23:51:47.944	test2 EURUSD,H1: initialized
+0	23:51:47.946	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:51:47.946	test2 EURUSD,H1: This is the POST result: 0
+0	23:51:47.946	test2 EURUSD,H1: initialized
+0	23:52:18.207	test2 EURUSD,H1: uninit reason 2
+0	23:52:18.211	Expert test2 EURUSD,H1: removed
+0	23:52:18.228	Expert test2 EURUSD,H1: loaded successfully
+0	23:52:18.243	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:52:18.243	test2 EURUSD,H1: This is the POST result: 0
+0	23:52:18.243	test2 EURUSD,H1: initialized
+0	23:52:18.247	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:52:18.247	test2 EURUSD,H1: This is the POST result: 0
+0	23:52:18.247	test2 EURUSD,H1: initialized
+0	23:52:47.020	test2 EURUSD,H1: uninit reason 2
+0	23:52:47.023	Expert test2 EURUSD,H1: removed
+0	23:52:47.047	Expert test2 EURUSD,H1: loaded successfully
+0	23:52:47.070	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:52:47.070	test2 EURUSD,H1: This is the POST result: 0
+0	23:52:47.070	test2 EURUSD,H1: initialized
+0	23:52:47.071	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:52:47.071	test2 EURUSD,H1: This is the POST result: 0
+0	23:52:47.071	test2 EURUSD,H1: initialized
+0	23:53:20.448	test2 EURUSD,H1: uninit reason 2
+0	23:53:20.452	Expert test2 EURUSD,H1: removed
+0	23:53:20.467	Expert test2 EURUSD,H1: loaded successfully
+0	23:53:20.487	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:53:20.487	test2 EURUSD,H1: This is the POST result: 0
+0	23:53:20.487	test2 EURUSD,H1: initialized
+0	23:53:20.491	test2 EURUSD,H1: Alert: Last MSDN Error =: 12007
+0	23:53:20.491	test2 EURUSD,H1: This is the POST result: 0
+0	23:53:20.491	test2 EURUSD,H1: initialized
+0	23:53:39.052	test2 EURUSD,H1: uninit reason 2
+0	23:53:39.056	Expert test2 EURUSD,H1: removed
+0	23:53:39.074	Expert test2 EURUSD,H1: loaded successfully
+0	23:53:39.109	test2 EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:53:39.109	test2 EURUSD,H1: This is the POST result: 1
+0	23:53:39.109	test2 EURUSD,H1: initialized
+0	23:53:39.112	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:53:39.112	test2 EURUSD,H1: This is the POST result: 0
+0	23:53:39.112	test2 EURUSD,H1: initialized
+0	23:54:04.382	test2 EURUSD,H1: uninit reason 2
+0	23:54:04.386	Expert test2 EURUSD,H1: removed
+0	23:54:04.408	Expert test2 EURUSD,H1: loaded successfully
+0	23:54:04.428	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:54:04.428	test2 EURUSD,H1: This is the POST result: 0
+0	23:54:04.428	test2 EURUSD,H1: initialized
+0	23:54:04.431	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:54:04.431	test2 EURUSD,H1: This is the POST result: 0
+0	23:54:04.431	test2 EURUSD,H1: initialized
+0	23:54:11.445	test2 EURUSD,H1: uninit reason 2
+0	23:54:11.449	Expert test2 EURUSD,H1: removed
+0	23:54:11.469	Expert test2 EURUSD,H1: loaded successfully
+0	23:54:11.509	test2 EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:54:11.509	test2 EURUSD,H1: This is the POST result: 1
+0	23:54:11.509	test2 EURUSD,H1: initialized
+0	23:54:11.511	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:54:11.511	test2 EURUSD,H1: This is the POST result: 0
+0	23:54:11.511	test2 EURUSD,H1: initialized
+0	23:54:59.372	test2 EURUSD,H1: uninit reason 2
+0	23:54:59.375	Expert test2 EURUSD,H1: removed
+0	23:54:59.389	Expert test2 EURUSD,H1: loaded successfully
+0	23:54:59.428	test2 EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:54:59.428	test2 EURUSD,H1: This is the POST result: 1
+0	23:54:59.428	test2 EURUSD,H1: initialized
+0	23:54:59.430	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:54:59.430	test2 EURUSD,H1: This is the POST result: 0
+0	23:54:59.430	test2 EURUSD,H1: initialized
+0	23:55:51.858	test2 EURUSD,H1: uninit reason 2
+0	23:55:51.860	Expert test2 EURUSD,H1: removed
+0	23:55:51.876	Expert test2 EURUSD,H1: loaded successfully
+0	23:55:51.896	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:55:51.896	test2 EURUSD,H1: This is the POST result: 0
+0	23:55:51.896	test2 EURUSD,H1: initialized
+0	23:55:51.896	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:55:51.896	test2 EURUSD,H1: This is the POST result: 0
+0	23:55:51.896	test2 EURUSD,H1: initialized
+0	23:55:58.774	test2 EURUSD,H1: uninit reason 2
+0	23:55:58.778	Expert test2 EURUSD,H1: removed
+0	23:55:58.798	Expert test2 EURUSD,H1: loaded successfully
+0	23:55:58.833	test2 EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:55:58.833	test2 EURUSD,H1: This is the POST result: 1
+0	23:55:58.833	test2 EURUSD,H1: initialized
+0	23:55:58.837	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:55:58.837	test2 EURUSD,H1: This is the POST result: 0
+0	23:55:58.837	test2 EURUSD,H1: initialized
+0	23:56:35.708	test2 EURUSD,H1: uninit reason 2
+0	23:56:35.712	Expert test2 EURUSD,H1: removed
+0	23:56:35.729	Expert test2 EURUSD,H1: loaded successfully
+0	23:56:35.768	test2 EURUSD,H1: Alert: Last MSDN Error =: 0
+0	23:56:35.768	test2 EURUSD,H1: This is the POST result: 1
+0	23:56:35.768	test2 EURUSD,H1: initialized
+0	23:56:35.771	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:56:35.771	test2 EURUSD,H1: This is the POST result: 0
+0	23:56:35.771	test2 EURUSD,H1: initialized
+0	23:57:49.330	test2 EURUSD,H1: uninit reason 2
+0	23:57:49.334	Expert test2 EURUSD,H1: removed
+0	23:57:49.357	Expert test2 EURUSD,H1: loaded successfully
+0	23:57:49.381	test2 EURUSD,H1: 11
+0	23:57:49.381	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:57:49.381	test2 EURUSD,H1: This is the POST result: 0
+0	23:57:49.381	test2 EURUSD,H1: initialized
+0	23:57:49.381	test2 EURUSD,H1: 11
+0	23:57:49.382	test2 EURUSD,H1: Alert: Last MSDN Error =: 12029
+0	23:57:49.382	test2 EURUSD,H1: This is the POST result: 0
+0	23:57:49.382	test2 EURUSD,H1: initialized

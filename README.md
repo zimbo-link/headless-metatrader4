@@ -12,6 +12,23 @@
   - [Known issues](#known-issues)
   - [Troubleshooting](#troubleshooting)
 
+
+## Build/Push the image
+
+```bash
+docker build -t mt4-distro .
+docker tag mt4-distro:latest 264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
+docker push 264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
+
+docker run -d --rm --env-file env.list \
+    --cap-add=SYS_PTRACE \
+    264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
+
+docker run -d -p 5900:5900 --rm --env-file env.list \
+    --cap-add=SYS_PTRACE \
+    264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
+ ```
+
 # Headless MetaTrader 4 Terminal in wine
 
 This image is a prepared environment to execute a MetaTrader 4 Terminal which you drop to the container. Most likely, this will be enough to run any EA/script but you should test this by yourself.
@@ -52,10 +69,12 @@ adduser monitor docker
 Login by user "monitor" and type:
 
 ```bash
-docker run -d --rm \
+ 
+docker run -d --rm --env-file env.list \
     --cap-add=SYS_PTRACE \
-    -v /path/to/prepared/mt4/distro:/home/winer/.wine/drive_c/mt4 \
-    nevmerzhitsky/headless-metatrader4
+    264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
+
+
 ```
 
 Or do it by root but add `--user 1000` parameter to command.

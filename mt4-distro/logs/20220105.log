@@ -1,0 +1,29 @@
+0	00:03:23.189	TW MetaTrader 4 build 1353 started (TW Corp.)
+0	00:03:23.190	Microsoft Windows 7 x64, IE 11, 8 x AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx, Memory: 9270 / 17483 Mb, Disk: 121 / 191 Gb, GMT+2
+0	00:03:23.190	Data Folder: Z:\home\trev\ZIMBO\headless-metatrader4\mt4-distro
+0	00:03:23.430	Started with configuration file 'startup.ini'
+2	00:03:24.608	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	11:24:11.438	TW MetaTrader 4 build 1353 started (TW Corp.)
+0	11:24:11.439	Microsoft Windows 7 x64, IE 11, 8 x AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx, Memory: 10068 / 17483 Mb, Disk: 108 / 191 Gb, GMT+2
+0	11:24:11.439	Data Folder: Z:\home\trev\ZIMBO\headless-metatrader4\mt4-distro
+0	11:24:11.691	Started with configuration file 'startup.ini'
+2	11:24:12.763	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	11:24:37.229	'1755661': login on TradersWay-Demo through Data Center 2 (ping: 179.11 ms)
+0	11:24:39.347	'1755661': login datacenter on TradersWay-Demo through Data Center 2 (ping: 179.11 ms)
+0	11:24:39.783	'1755661': previous successful authorization performed from 34.244.246.95
+0	11:24:47.883	'1755661': auto connecting to a better access point Data Center 3 (ping is 182.56 ms)
+0	11:24:48.489	'1755661': login on TradersWay-Demo through Data Center 3 (ping: 182.56 ms)
+0	11:24:49.916	'1755661': login datacenter on TradersWay-Demo through Data Center 3 (ping: 182.56 ms)
+0	11:24:50.333	'1755661': previous successful authorization performed from 169.0.168.111
+2	11:24:55.983	Expert Neverland_301 EURUSD,H1: removed
+2	11:24:56.003	Expert Neverland_301 EURUSD,H1: loaded successfully
+2	11:25:09.261	Expert Neverland_301 EURUSD,H1: removed
+2	11:25:09.276	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	11:25:13.382	'1755661': pending order sell stop 1.64 EURUSD at 1.13011 sl: 1.13494 tp: 0.00000
+0	11:25:13.676	Trades: use hosting service to speed up the execution - 1.05 ms via 'MQL5 Amsterdam 02 (MQL5.community)' instead of 182.56 ms
+0	11:25:13.676	'1755661': order was opened : #193885645 sell stop 1.64 EURUSD at 1.13011 sl: 1.13494 tp: 0.00000
+0	11:25:20.551	'1755661': order #193885645 sell stop 1.64 EURUSD at 1.13011 activated at price 1.13011
+0	11:25:20.580	'1755661': pending order buy stop 1.64 USDJPY at 115.876 sl: 115.392 tp: 0.000
+0	11:25:20.848	'1755661': order was opened : #193885659 buy stop 1.64 USDJPY at 115.876 sl: 115.392 tp: 0.000
+0	11:25:28.530	'1755661': modify pending order #193885659 buy stop 1.64 USDJPY at 115.876 sl: 115.392 tp: 0.000 -> price: 115.864 sl: 115.381 tp: 0.000
+0	11:25:28.785	'1755661': pending order #193885659 buy stop 1.64 USDJPY was modified -> price: 115.864 sl: 115.381 tp: 0.000

@@ -18,7 +18,25 @@ RUN set -ex; \
         wget \
         unzip \
         xz-utils \
-        xvfb
+        xvfb \
+        aptitude \
+        npm \
+        xfonts-base \
+        xfce4 \
+        xfce4-goodies \
+        tightvncserver
+
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - 
+RUN apt-get install -y nodejs
+
+RUN node --version
+RUN npm --version
+
+EXPOSE 8082
+EXPOSE 8081
+EXPOSE 8080 
+EXPOSE 80
+EXPOSE 443
 
 RUN set -ex; \
     wget -nc https://dl.winehq.org/wine-builds/winehq.key; \
@@ -76,8 +94,12 @@ RUN set -e; \
     mkdir -p /tmp/screenshots/; \
     chown winer:winer /tmp/screenshots/
 
+
+
 USER $USER
 WORKDIR $MT4DIR
+COPY mt4-distro $MT4DIR 
+
 VOLUME /tmp/screenshots/
 
 ENTRYPOINT ["/bin/bash"]

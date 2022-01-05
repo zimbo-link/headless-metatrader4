@@ -1,0 +1,590 @@
+0	19:39:02.703	TW MetaTrader 4 build 1353 started (TW Corp.)
+0	19:39:02.704	Microsoft Windows 7 x64, IE 11, 8 x AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx, Memory: 10571 / 17483 Mb, Disk: 124 / 191 Gb, GMT+2
+0	19:39:02.704	Data Folder: Z:\home\trev\ZIMBO\headless-metatrader4\mt4-distro
+0	19:39:02.979	Started with configuration file 'startup.ini'
+2	19:39:04.225	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	19:39:43.334	'1755661': login on TradersWay-Demo through Data Center 5 (ping: 175.11 ms)
+0	19:39:45.191	'1755661': login datacenter on TradersWay-Demo through Data Center 5 (ping: 175.11 ms)
+0	19:39:45.639	'1755661': previous successful authorization performed from 169.0.170.29
+2	19:39:49.933	Expert Neverland_301 EURUSD,H1: removed
+2	19:39:49.949	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	19:39:53.435	'1755661': auto connecting to a better access point Data Center 5 (ping is 186.43 ms)
+0	19:39:54.128	'1755661': login on TradersWay-Demo through Data Center 5 (ping: 186.43 ms)
+0	19:39:55.642	'1755661': login datacenter on TradersWay-Demo through Data Center 5 (ping: 186.43 ms)
+0	19:39:56.080	'1755661': previous successful authorization performed from 169.0.170.29
+0	19:43:57.141	'1755661': close order #193854151 buy 1.65 EURGBP at 0.83412 sl: 0.82928 tp: 0.00000 at price 0.00000
+1	19:43:57.403	'1755661': order #193854151 buy 1.65 EURGBP closing at 0.00000 failed [Invalid parameters]
+0	19:48:46.131	'1755661': close order #193854296 sell 1.64 USDJPY at 116.182 sl: 116.665 tp: 0.000 at price 0.000
+1	19:48:46.411	'1755661': order #193854296 sell 1.64 USDJPY closing at 0.000 failed [Invalid parameters]
+0	19:48:46.446	'1755661': pending order sell stop 1.64 USDJPY at 116.167 sl: 116.652 tp: 0.000
+0	19:48:46.724	'1755661': order was opened : #193854668 sell stop 1.64 USDJPY at 116.167 sl: 116.652 tp: 0.000
+0	19:48:47.343	Trades: use hosting service to speed up the execution - 1.05 ms via 'MQL5 Amsterdam 02 (MQL5.community)' instead of 186.43 ms
+0	19:49:10.128	'1755661': delete pending order #193854668 sell stop 1.64 USDJPY at 116.167 sl: 116.652 tp: 0.000
+1	19:49:10.411	'1755661': deleting of invalid order #193854668
+0	19:49:10.411	'1755661': delete pending order #193854667 sell stop 1.64 USDJPY at 116.167 sl: 116.652 tp: 0.000
+0	19:49:10.660	'1755661': pending order #193854667 was deleted
+0	19:49:11.328	'1755661': pending order sell stop 1.64 USDJPY at 116.169 sl: 116.653 tp: 0.000
+0	19:49:11.629	'1755661': order was opened : #193854684 sell stop 1.64 USDJPY at 116.169 sl: 116.653 tp: 0.000
+0	19:49:35.178	'1755661': delete pending order #193854684 sell stop 1.64 USDJPY at 116.169 sl: 116.653 tp: 0.000
+1	19:49:35.455	'1755661': deleting of invalid order #193854684
+0	19:49:35.456	'1755661': delete pending order #193854683 sell stop 1.64 USDJPY at 116.169 sl: 116.653 tp: 0.000
+0	19:49:35.706	'1755661': pending order #193854683 was deleted
+0	19:49:35.739	'1755661': pending order sell stop 1.64 USDJPY at 116.168 sl: 116.650 tp: 0.000
+0	19:49:36.003	'1755661': order was opened : #193854689 sell stop 1.64 USDJPY at 116.168 sl: 116.650 tp: 0.000
+0	19:49:59.078	'1755661': delete pending order #193854690 sell stop 1.64 USDJPY at 116.168 sl: 116.650 tp: 0.000
+0	19:49:59.346	'1755661': pending order #193854690 was deleted
+0	19:49:59.347	'1755661': delete pending order #193854689 sell stop 1.64 USDJPY at 116.168 sl: 116.650 tp: 0.000
+0	19:49:59.643	'1755661': pending order #193854689 was deleted
+0	19:49:59.676	'1755661': pending order sell stop 1.64 USDJPY at 116.174 sl: 116.657 tp: 0.000
+0	19:49:59.939	'1755661': order was opened : #193854698 sell stop 1.64 USDJPY at 116.174 sl: 116.657 tp: 0.000
+0	19:50:21.658	'1755661': order #193854698 sell stop 1.64 USDJPY at 116.174 activated at price 116.174
+0	19:50:21.658	'1755661': order #193854699 sell stop 1.64 USDJPY at 116.174 activated at price 116.174
+0	19:50:21.680	'1755661': close order #193854699 sell 1.64 USDJPY at 116.174 sl: 116.657 tp: 0.000 at price 0.000
+0	19:50:21.955	'1755661': order #193854699 sell 1.64 USDJPY at 116.174 sl: 116.657 tp: 0.000 closed at price 116.185
+0	19:50:21.956	'1755661': close order #193854698 sell 1.64 USDJPY at 116.174 sl: 116.657 tp: 0.000 at price 0.000
+0	19:50:22.252	'1755661': order #193854698 sell 1.64 USDJPY at 116.174 sl: 116.657 tp: 0.000 closed at price 116.185
+0	19:50:22.285	'1755661': pending order sell stop 1.64 USDJPY at 116.167 sl: 116.650 tp: 0.000
+0	19:50:22.549	'1755661': order was opened : #193854717 sell stop 1.64 USDJPY at 116.167 sl: 116.650 tp: 0.000
+0	19:50:46.878	'1755661': delete pending order #193854717 sell stop 1.64 USDJPY at 116.167 sl: 116.650 tp: 0.000
+1	19:50:47.141	'1755661': deleting of invalid order #193854717
+0	19:50:47.142	'1755661': delete pending order #193854716 sell stop 1.64 USDJPY at 116.167 sl: 116.650 tp: 0.000
+0	19:50:47.392	'1755661': pending order #193854716 was deleted
+0	19:50:47.428	'1755661': pending order sell stop 1.64 USDJPY at 116.166 sl: 116.649 tp: 0.000
+0	19:50:47.689	'1755661': order was opened : #193854721 sell stop 1.64 USDJPY at 116.166 sl: 116.649 tp: 0.000
+0	19:51:11.585	'1755661': delete pending order #193854722 sell stop 1.64 USDJPY at 116.166 sl: 116.649 tp: 0.000
+0	19:51:11.860	'1755661': pending order #193854722 was deleted
+0	19:51:11.860	'1755661': delete pending order #193854721 sell stop 1.64 USDJPY at 116.166 sl: 116.649 tp: 0.000
+0	19:51:12.110	'1755661': pending order #193854721 was deleted
+0	19:51:12.145	'1755661': pending order sell stop 1.64 USDJPY at 116.167 sl: 116.649 tp: 0.000
+0	19:51:12.407	'1755661': order was opened : #193854738 sell stop 1.64 USDJPY at 116.167 sl: 116.649 tp: 0.000
+0	19:51:32.203	'1755661': order #193854738 sell stop 1.64 USDJPY at 116.167 activated at price 116.167
+0	19:51:32.203	'1755661': order #193854739 sell stop 1.64 USDJPY at 116.167 activated at price 116.167
+0	19:53:18.281	'1755661': pending order sell stop 1.64 EURJPY at 131.197 sl: 131.682 tp: 0.000
+0	19:53:18.587	'1755661': order was opened : #193854779 sell stop 1.64 EURJPY at 131.197 sl: 131.682 tp: 0.000
+0	19:53:27.002	'1755661': modify pending order #193854779 sell stop 1.64 EURJPY at 131.197 sl: 131.682 tp: 0.000 -> price: 131.210 sl: 131.695 tp: 0.000
+0	19:53:27.290	'1755661': order #0 buy 0.00  at 0 was modified -> sl: 0 tp: 0
+0	19:53:42.178	'1755661': delete pending order #193854779 sell stop 1.64 EURJPY at 131.210 sl: 131.695 tp: 0.000
+1	19:53:42.445	'1755661': deleting of invalid order #193854779
+0	19:53:47.129	'1755661': pending order sell stop 1.64 EURJPY at 131.212 sl: 131.696 tp: 0.000
+0	19:53:47.383	'1755661': order was opened : #193854786 sell stop 1.64 EURJPY at 131.212 sl: 131.696 tp: 0.000
+0	19:54:11.378	'1755661': delete pending order #193854787 sell stop 1.64 EURJPY at 131.212 sl: 131.696 tp: 0.000
+0	19:54:11.616	'1755661': pending order #193854787 was deleted
+0	19:54:11.616	'1755661': delete pending order #193854786 sell stop 1.64 EURJPY at 131.212 sl: 131.696 tp: 0.000
+0	19:54:11.866	'1755661': pending order #193854786 was deleted
+0	20:01:33.178	'1755661': close order #193854739 sell 1.64 USDJPY at 116.167 sl: 116.649 tp: 0.000 at price 0.000
+0	20:01:33.411	'1755661': order #193854739 sell 1.64 USDJPY at 116.167 sl: 116.649 tp: 0.000 closed at price 116.179
+0	20:01:33.452	'1755661': close order #193854738 sell 1.64 USDJPY at 116.167 sl: 116.649 tp: 0.000 at price 0.000
+0	20:01:33.707	'1755661': order #193854738 sell 1.64 USDJPY at 116.167 sl: 116.649 tp: 0.000 closed at price 116.179
+0	20:01:39.028	'1755661': pending order sell stop 1.63 USDJPY at 116.160 sl: 116.644 tp: 0.000
+0	20:01:39.254	'1755661': order was opened : #193855318 sell stop 1.63 USDJPY at 116.160 sl: 116.644 tp: 0.000
+0	20:02:03.078	'1755661': delete pending order #193855318 sell stop 1.63 USDJPY at 116.160 sl: 116.644 tp: 0.000
+0	20:02:03.378	'1755661': pending order #193855318 was deleted
+0	20:02:03.415	'1755661': pending order sell stop 1.63 USDJPY at 116.158 sl: 116.643 tp: 0.000
+0	20:02:03.675	'1755661': order was opened : #193855338 sell stop 1.63 USDJPY at 116.158 sl: 116.643 tp: 0.000
+0	20:02:27.529	'1755661': delete pending order #193855339 sell stop 1.63 USDJPY at 116.158 sl: 116.643 tp: 0.000
+1	20:02:27.784	'1755661': deleting of invalid order #193855339
+0	20:02:27.785	'1755661': delete pending order #193855338 sell stop 1.63 USDJPY at 116.158 sl: 116.643 tp: 0.000
+1	20:02:28.080	'1755661': deleting of invalid order #193855338
+0	20:02:31.378	'1755661': pending order sell stop 1.63 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:02:31.643	'1755661': order was opened : #193855367 sell stop 1.63 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:02:55.079	'1755661': delete pending order #193855367 sell stop 1.63 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:02:55.329	'1755661': pending order #193855367 was deleted
+0	20:02:55.329	'1755661': delete pending order #193855366 sell stop 1.63 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:02:55.580	'1755661': pending order #193855366 was deleted
+0	20:02:55.616	'1755661': pending order sell stop 1.63 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:02:55.876	'1755661': order was opened : #193855372 sell stop 1.63 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:03:15.079	'1755661': order #193855372 sell stop 1.63 USDJPY at 116.147 activated at price 116.147
+0	20:03:15.079	'1755661': order #193855373 sell stop 1.63 USDJPY at 116.147 activated at price 116.147
+0	20:03:30.402	'1755661': close order #193855373 sell 1.63 USDJPY at 116.147 sl: 116.630 tp: 0.000 at price 0.000
+1	20:03:30.672	'1755661': order #193855373 sell 1.63 USDJPY closing at 0.000 failed [Invalid parameters]
+0	20:03:30.672	'1755661': close order #193855372 sell 1.63 USDJPY at 116.147 sl: 116.630 tp: 0.000 at price 0.000
+1	20:03:30.906	'1755661': order #193855372 sell 1.63 USDJPY closing at 0.000 failed [Invalid parameters]
+0	20:03:30.940	'1755661': pending order sell stop 1.63 USDJPY at 116.127 sl: 116.610 tp: 0.000
+0	20:03:31.203	'1755661': order was opened : #193855395 sell stop 1.63 USDJPY at 116.127 sl: 116.610 tp: 0.000
+0	20:03:55.229	'1755661': delete pending order #193855395 sell stop 1.63 USDJPY at 116.127 sl: 116.610 tp: 0.000
+0	20:03:55.515	'1755661': pending order #193855395 was deleted
+0	20:03:55.516	'1755661': delete pending order #193855394 sell stop 1.63 USDJPY at 116.127 sl: 116.610 tp: 0.000
+0	20:03:55.813	'1755661': pending order #193855394 was deleted
+0	20:03:55.851	'1755661': pending order sell stop 1.63 USDJPY at 116.132 sl: 116.616 tp: 0.000
+0	20:03:56.172	'1755661': order was opened : #193855408 sell stop 1.63 USDJPY at 116.132 sl: 116.616 tp: 0.000
+0	20:03:56.175	'1755661': delete pending order #193855408 sell stop 1.63 USDJPY at 116.132 sl: 116.616 tp: 0.000
+0	20:03:56.436	'1755661': pending order #193855408 was deleted
+0	20:03:56.473	'1755661': pending order sell stop 1.63 USDJPY at 116.132 sl: 116.616 tp: 0.000
+0	20:03:56.781	'1755661': order was opened : #193855410 sell stop 1.63 USDJPY at 116.132 sl: 116.616 tp: 0.000
+0	20:04:20.128	'1755661': delete pending order #193855411 sell stop 1.63 USDJPY at 116.132 sl: 116.616 tp: 0.000
+1	20:04:20.436	'1755661': deleting of invalid order #193855411
+0	20:04:20.436	'1755661': delete pending order #193855410 sell stop 1.63 USDJPY at 116.132 sl: 116.616 tp: 0.000
+1	20:04:20.748	'1755661': deleting of invalid order #193855410
+0	20:04:20.788	'1755661': pending order sell stop 1.63 USDJPY at 116.135 sl: 116.618 tp: 0.000
+0	20:04:21.062	'1755661': order was opened : #193855425 sell stop 1.63 USDJPY at 116.135 sl: 116.618 tp: 0.000
+0	20:04:21.065	'1755661': delete pending order #193855425 sell stop 1.63 USDJPY at 116.135 sl: 116.618 tp: 0.000
+0	20:04:21.312	'1755661': pending order #193855425 was deleted
+0	20:04:44.387	'1755661': delete pending order #193855424 sell stop 1.63 USDJPY at 116.135 sl: 116.618 tp: 0.000
+1	20:04:44.669	'1755661': deleting of invalid order #193855424
+0	20:04:44.705	'1755661': pending order sell stop 1.63 USDJPY at 116.136 sl: 116.620 tp: 0.000
+0	20:04:44.982	'1755661': order was opened : #193855429 sell stop 1.63 USDJPY at 116.136 sl: 116.620 tp: 0.000
+0	20:05:08.329	'1755661': delete pending order #193855429 sell stop 1.63 USDJPY at 116.136 sl: 116.620 tp: 0.000
+1	20:05:08.621	'1755661': deleting of invalid order #193855429
+0	20:05:08.622	'1755661': delete pending order #193855428 sell stop 1.63 USDJPY at 116.136 sl: 116.620 tp: 0.000
+0	20:05:08.873	'1755661': pending order #193855428 was deleted
+0	20:05:08.909	'1755661': pending order sell stop 1.63 USDJPY at 116.141 sl: 116.624 tp: 0.000
+0	20:05:09.169	'1755661': order was opened : #193855485 sell stop 1.63 USDJPY at 116.141 sl: 116.624 tp: 0.000
+0	20:05:33.579	'1755661': delete pending order #193855486 sell stop 1.63 USDJPY at 116.141 sl: 116.624 tp: 0.000
+0	20:05:33.856	'1755661': pending order #193855486 was deleted
+0	20:05:33.856	'1755661': delete pending order #193855485 sell stop 1.63 USDJPY at 116.141 sl: 116.624 tp: 0.000
+1	20:05:34.168	'1755661': deleting of invalid order #193855485
+0	20:05:34.207	'1755661': pending order sell stop 1.63 USDJPY at 116.146 sl: 116.630 tp: 0.000
+0	20:05:34.481	'1755661': order was opened : #193855490 sell stop 1.63 USDJPY at 116.146 sl: 116.630 tp: 0.000
+0	20:05:58.079	'1755661': delete pending order #193855490 sell stop 1.63 USDJPY at 116.146 sl: 116.630 tp: 0.000
+1	20:05:58.370	'1755661': deleting of invalid order #193855490
+0	20:05:58.371	'1755661': delete pending order #193855489 sell stop 1.63 USDJPY at 116.146 sl: 116.630 tp: 0.000
+1	20:05:58.667	'1755661': deleting of invalid order #193855489
+0	20:05:58.702	'1755661': pending order sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+0	20:05:58.965	'1755661': order was opened : #193855493 sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+0	20:06:22.079	'1755661': delete pending order #193855493 sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+1	20:06:22.338	'1755661': deleting of invalid order #193855493
+0	20:06:22.338	'1755661': delete pending order #193855492 sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+1	20:06:22.588	'1755661': deleting of invalid order #193855492
+0	20:06:22.622	'1755661': pending order sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+0	20:06:22.885	'1755661': order was opened : #193855500 sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+0	20:06:46.179	'1755661': delete pending order #193855501 sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+1	20:06:46.447	'1755661': deleting of invalid order #193855501
+0	20:06:46.448	'1755661': delete pending order #193855500 sell stop 1.63 USDJPY at 116.151 sl: 116.635 tp: 0.000
+1	20:06:46.697	'1755661': deleting of invalid order #193855500
+0	20:06:46.726	'1755661': pending order sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+0	20:06:46.994	'1755661': order was opened : #193855506 sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+0	20:07:10.179	'1755661': delete pending order #193855506 sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+1	20:07:10.446	'1755661': deleting of invalid order #193855506
+0	20:07:10.446	'1755661': delete pending order #193855505 sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+1	20:07:10.696	'1755661': deleting of invalid order #193855505
+0	20:07:10.733	'1755661': pending order sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+0	20:07:10.993	'1755661': order was opened : #193855511 sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+0	20:07:34.079	'1755661': delete pending order #193855511 sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+0	20:07:34.352	'1755661': pending order #193855511 was deleted
+0	20:07:34.353	'1755661': delete pending order #193855510 sell stop 1.63 USDJPY at 116.145 sl: 116.629 tp: 0.000
+0	20:07:34.649	'1755661': pending order #193855510 was deleted
+0	20:07:34.681	'1755661': pending order sell stop 1.63 USDJPY at 116.146 sl: 116.631 tp: 0.000
+0	20:07:34.946	'1755661': order was opened : #193855532 sell stop 1.63 USDJPY at 116.146 sl: 116.631 tp: 0.000
+0	20:07:58.079	'1755661': delete pending order #193855533 sell stop 1.63 USDJPY at 116.146 sl: 116.631 tp: 0.000
+0	20:07:58.367	'1755661': pending order #193855533 was deleted
+0	20:07:58.367	'1755661': delete pending order #193855532 sell stop 1.63 USDJPY at 116.146 sl: 116.631 tp: 0.000
+0	20:07:58.617	'1755661': pending order #193855532 was deleted
+0	20:07:58.654	'1755661': pending order sell stop 1.63 USDJPY at 116.150 sl: 116.635 tp: 0.000
+0	20:07:58.914	'1755661': order was opened : #193855538 sell stop 1.63 USDJPY at 116.150 sl: 116.635 tp: 0.000
+0	20:08:22.179	'1755661': delete pending order #193855538 sell stop 1.63 USDJPY at 116.150 sl: 116.635 tp: 0.000
+0	20:08:22.413	'1755661': pending order #193855538 was deleted
+0	20:08:22.451	'1755661': pending order sell stop 1.63 USDJPY at 116.155 sl: 116.638 tp: 0.000
+0	20:08:22.710	'1755661': order was opened : #193855562 sell stop 1.63 USDJPY at 116.155 sl: 116.638 tp: 0.000
+0	20:08:46.183	'1755661': delete pending order #193855563 sell stop 1.63 USDJPY at 116.155 sl: 116.638 tp: 0.000
+0	20:08:46.428	'1755661': pending order #193855563 was deleted
+0	20:08:46.428	'1755661': delete pending order #193855562 sell stop 1.63 USDJPY at 116.155 sl: 116.638 tp: 0.000
+0	20:08:46.678	'1755661': pending order #193855562 was deleted
+0	20:08:46.712	'1755661': pending order sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:08:46.975	'1755661': order was opened : #193855575 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:09:10.234	'1755661': delete pending order #193855575 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:09:10.489	'1755661': pending order #193855575 was deleted
+0	20:09:10.528	'1755661': pending order sell stop 1.63 USDJPY at 116.160 sl: 116.643 tp: 0.000
+0	20:09:10.785	'1755661': order was opened : #193855590 sell stop 1.63 USDJPY at 116.160 sl: 116.643 tp: 0.000
+0	20:09:34.079	'1755661': delete pending order #193855591 sell stop 1.63 USDJPY at 116.160 sl: 116.643 tp: 0.000
+0	20:09:34.332	'1755661': pending order #193855591 was deleted
+0	20:09:34.332	'1755661': delete pending order #193855590 sell stop 1.63 USDJPY at 116.160 sl: 116.643 tp: 0.000
+0	20:09:34.582	'1755661': pending order #193855590 was deleted
+0	20:09:34.623	'1755661': pending order sell stop 1.63 USDJPY at 116.159 sl: 116.643 tp: 0.000
+0	20:09:34.879	'1755661': order was opened : #193855599 sell stop 1.63 USDJPY at 116.159 sl: 116.643 tp: 0.000
+0	20:09:58.229	'1755661': delete pending order #193855599 sell stop 1.63 USDJPY at 116.159 sl: 116.643 tp: 0.000
+1	20:09:58.517	'1755661': deleting of invalid order #193855599
+0	20:09:58.517	'1755661': delete pending order #193855598 sell stop 1.63 USDJPY at 116.159 sl: 116.643 tp: 0.000
+1	20:09:58.783	'1755661': deleting of invalid order #193855598
+0	20:09:58.819	'1755661': pending order sell stop 1.63 USDJPY at 116.156 sl: 116.640 tp: 0.000
+0	20:09:59.080	'1755661': order was opened : #193855602 sell stop 1.63 USDJPY at 116.156 sl: 116.640 tp: 0.000
+0	20:09:59.083	'1755661': delete pending order #193855602 sell stop 1.63 USDJPY at 116.156 sl: 116.640 tp: 0.000
+0	20:09:59.330	'1755661': pending order #193855602 was deleted
+0	20:10:23.079	'1755661': delete pending order #193855601 sell stop 1.63 USDJPY at 116.156 sl: 116.640 tp: 0.000
+1	20:10:23.328	'1755661': deleting of invalid order #193855601
+0	20:10:23.362	'1755661': pending order sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:10:23.626	'1755661': order was opened : #193855618 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:10:47.079	'1755661': delete pending order #193855618 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+1	20:10:47.343	'1755661': deleting of invalid order #193855618
+0	20:10:47.343	'1755661': delete pending order #193855617 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+1	20:10:47.608	'1755661': deleting of invalid order #193855617
+0	20:10:47.641	'1755661': pending order sell stop 1.63 USDJPY at 116.152 sl: 116.635 tp: 0.000
+0	20:10:47.922	'1755661': order was opened : #193855649 sell stop 1.63 USDJPY at 116.152 sl: 116.635 tp: 0.000
+0	20:11:11.079	'1755661': delete pending order #193855649 sell stop 1.63 USDJPY at 116.152 sl: 116.635 tp: 0.000
+0	20:11:11.342	'1755661': pending order #193855649 was deleted
+0	20:11:11.343	'1755661': delete pending order #193855648 sell stop 1.63 USDJPY at 116.152 sl: 116.635 tp: 0.000
+0	20:11:11.639	'1755661': pending order #193855648 was deleted
+0	20:11:11.674	'1755661': pending order sell stop 1.63 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:11:11.999	'1755661': order was opened : #193855661 sell stop 1.63 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:11:12.229	'1755661': delete pending order #193855662 sell stop 1.63 USDJPY at 116.153 sl: 116.636 tp: 0.000
+1	20:11:12.514	'1755661': deleting of invalid order #193855662
+0	20:11:35.079	'1755661': delete pending order #193855661 sell stop 1.63 USDJPY at 116.153 sl: 116.636 tp: 0.000
+1	20:11:35.340	'1755661': deleting of invalid order #193855661
+0	20:11:35.375	'1755661': pending order sell stop 1.63 USDJPY at 116.149 sl: 116.631 tp: 0.000
+0	20:11:35.639	'1755661': order was opened : #193855668 sell stop 1.63 USDJPY at 116.149 sl: 116.631 tp: 0.000
+0	20:11:59.579	'1755661': delete pending order #193855668 sell stop 1.63 USDJPY at 116.149 sl: 116.631 tp: 0.000
+0	20:11:59.856	'1755661': pending order #193855668 was deleted
+0	20:11:59.856	'1755661': delete pending order #193855667 sell stop 1.63 USDJPY at 116.149 sl: 116.631 tp: 0.000
+0	20:12:00.105	'1755661': pending order #193855667 was deleted
+0	20:12:00.143	'1755661': pending order sell stop 1.63 USDJPY at 116.147 sl: 116.631 tp: 0.000
+0	20:12:00.403	'1755661': order was opened : #193855676 sell stop 1.63 USDJPY at 116.147 sl: 116.631 tp: 0.000
+0	20:12:24.529	'1755661': delete pending order #193855676 sell stop 1.63 USDJPY at 116.147 sl: 116.631 tp: 0.000
+0	20:12:24.808	'1755661': pending order #193855676 was deleted
+0	20:12:24.841	'1755661': pending order sell stop 1.63 USDJPY at 116.147 sl: 116.631 tp: 0.000
+0	20:12:25.105	'1755661': order was opened : #193855684 sell stop 1.63 USDJPY at 116.147 sl: 116.631 tp: 0.000
+0	20:12:25.106	'1755661': delete pending order #193855684 sell stop 1.63 USDJPY at 116.147 sl: 116.631 tp: 0.000
+0	20:12:25.369	'1755661': pending order #193855684 was deleted
+0	20:12:49.079	'1755661': delete pending order #193855685 sell stop 1.63 USDJPY at 116.147 sl: 116.631 tp: 0.000
+0	20:12:49.353	'1755661': pending order #193855685 was deleted
+0	20:12:49.391	'1755661': pending order sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:12:49.697	'1755661': order was opened : #193855698 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:13:13.579	'1755661': delete pending order #193855699 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:13:13.851	'1755661': pending order #193855699 was deleted
+0	20:13:13.852	'1755661': delete pending order #193855698 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+1	20:13:14.118	'1755661': deleting of invalid order #193855698
+0	20:13:14.147	'1755661': pending order sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:13:14.415	'1755661': order was opened : #193855709 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:13:38.079	'1755661': delete pending order #193855709 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:13:38.366	'1755661': pending order #193855709 was deleted
+0	20:13:38.366	'1755661': delete pending order #193855708 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:13:38.616	'1755661': pending order #193855708 was deleted
+0	20:14:21.379	'1755661': pending order sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:14:21.646	'1755661': order was opened : #193855733 sell stop 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000
+0	20:14:30.754	'1755661': order #193855733 sell stop 1.63 USDJPY at 116.153 activated at price 116.153
+0	20:15:55.879	'1755661': close order #193855733 sell 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000 at price 0.000
+0	20:15:56.170	'1755661': order #193855733 sell 1.63 USDJPY at 116.153 sl: 116.638 tp: 0.000 closed at price 116.129
+0	20:15:56.201	'1755661': pending order sell stop 1.64 USDJPY at 116.109 sl: 116.594 tp: 0.000
+0	20:15:56.502	'1755661': order was opened : #193855831 sell stop 1.64 USDJPY at 116.109 sl: 116.594 tp: 0.000
+0	20:16:20.579	'1755661': delete pending order #193855831 sell stop 1.64 USDJPY at 116.109 sl: 116.594 tp: 0.000
+0	20:16:20.874	'1755661': pending order #193855831 was deleted
+0	20:16:47.479	'1755661': pending order sell stop 1.64 USDJPY at 116.103 sl: 116.585 tp: 0.000
+0	20:16:47.780	'1755661': order was opened : #193855852 sell stop 1.64 USDJPY at 116.103 sl: 116.585 tp: 0.000
+0	20:17:11.180	'1755661': delete pending order #193855852 sell stop 1.64 USDJPY at 116.103 sl: 116.585 tp: 0.000
+0	20:17:11.467	'1755661': pending order #193855852 was deleted
+0	20:17:18.529	'1755661': pending order sell stop 1.64 USDJPY at 116.107 sl: 116.590 tp: 0.000
+0	20:17:18.810	'1755661': order was opened : #193855868 sell stop 1.64 USDJPY at 116.107 sl: 116.590 tp: 0.000
+0	20:17:43.079	'1755661': delete pending order #193855868 sell stop 1.64 USDJPY at 116.107 sl: 116.590 tp: 0.000
+0	20:17:43.325	'1755661': pending order #193855868 was deleted
+0	20:17:43.359	'1755661': pending order sell stop 1.64 USDJPY at 116.107 sl: 116.590 tp: 0.000
+0	20:17:43.622	'1755661': order was opened : #193855875 sell stop 1.64 USDJPY at 116.107 sl: 116.590 tp: 0.000
+0	20:18:00.793	'1755661': order #193855875 sell stop 1.64 USDJPY at 116.107 activated at price 116.107
+0	20:26:38.543	'1755661': order sell market 2.17 USDJPY sl: 116.590 tp: 0.000
+0	20:26:38.820	'1755661': order was opened : #193856033 sell 2.17 USDJPY at 116.143 sl: 116.590 tp: 0.000
+0	20:28:01.529	'1755661': close order #193855875 sell 1.64 USDJPY at 116.107 sl: 116.590 tp: 0.000 at price 0.000
+0	20:28:01.817	'1755661': order #193855875 sell 1.64 USDJPY at 116.107 sl: 116.590 tp: 0.000 closed at price 116.151
+0	20:36:39.078	'1755661': close order #193856033 sell 2.17 USDJPY at 116.143 sl: 116.590 tp: 0.000 at price 0.000
+0	20:36:39.380	'1755661': order #193856033 sell 2.17 USDJPY at 116.143 sl: 116.590 tp: 0.000 closed at price 116.164
+0	20:36:39.418	'1755661': pending order sell stop 1.62 USDJPY at 116.146 sl: 116.629 tp: 0.000
+0	20:36:39.724	'1755661': order was opened : #193856396 sell stop 1.62 USDJPY at 116.146 sl: 116.629 tp: 0.000
+0	20:37:03.028	'1755661': delete pending order #193856396 sell stop 1.62 USDJPY at 116.146 sl: 116.629 tp: 0.000
+0	20:37:03.316	'1755661': pending order #193856396 was deleted
+0	20:37:03.352	'1755661': pending order sell stop 1.62 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:37:03.613	'1755661': order was opened : #193856429 sell stop 1.62 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:37:28.029	'1755661': delete pending order #193856429 sell stop 1.62 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:37:28.347	'1755661': pending order #193856429 was deleted
+0	20:37:28.389	'1755661': pending order sell stop 1.62 USDJPY at 116.143 sl: 116.625 tp: 0.000
+0	20:37:28.690	'1755661': order was opened : #193856441 sell stop 1.62 USDJPY at 116.143 sl: 116.625 tp: 0.000
+0	20:37:52.178	'1755661': delete pending order #193856441 sell stop 1.62 USDJPY at 116.143 sl: 116.625 tp: 0.000
+0	20:37:52.487	'1755661': pending order #193856441 was deleted
+0	20:37:52.538	'1755661': pending order sell stop 1.62 USDJPY at 116.148 sl: 116.630 tp: 0.000
+0	20:37:52.847	'1755661': order was opened : #193856449 sell stop 1.62 USDJPY at 116.148 sl: 116.630 tp: 0.000
+0	20:38:16.078	'1755661': delete pending order #193856449 sell stop 1.62 USDJPY at 116.148 sl: 116.630 tp: 0.000
+0	20:38:16.361	'1755661': pending order #193856449 was deleted
+0	20:38:16.400	'1755661': pending order sell stop 1.62 USDJPY at 116.150 sl: 116.633 tp: 0.000
+0	20:38:16.705	'1755661': order was opened : #193856457 sell stop 1.62 USDJPY at 116.150 sl: 116.633 tp: 0.000
+0	20:38:40.029	'1755661': delete pending order #193856457 sell stop 1.62 USDJPY at 116.150 sl: 116.633 tp: 0.000
+0	20:38:40.345	'1755661': pending order #193856457 was deleted
+0	20:38:40.389	'1755661': pending order sell stop 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000
+0	20:38:40.688	'1755661': order was opened : #193856462 sell stop 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000
+0	20:38:51.016	'1755661': order #193856462 sell stop 1.62 USDJPY at 116.154 activated at price 116.154
+0	20:47:23.507	'1755661': pending order buy stop 1.62 EURGBP at 0.83454 sl: 0.82970 tp: 0.00000
+0	20:47:23.806	'1755661': order was opened : #193856850 buy stop 1.62 EURGBP at 0.83454 sl: 0.82970 tp: 0.00000
+0	20:47:47.178	'1755661': delete pending order #193856850 buy stop 1.62 EURGBP at 0.83454 sl: 0.82970 tp: 0.00000
+0	20:47:47.462	'1755661': pending order #193856850 was deleted
+0	20:48:24.536	'1755661': pending order buy stop 1.62 EURGBP at 0.83454 sl: 0.82970 tp: 0.00000
+0	20:48:24.818	'1755661': order was opened : #193856882 buy stop 1.62 EURGBP at 0.83454 sl: 0.82970 tp: 0.00000
+0	20:48:48.044	'1755661': delete pending order #193856882 buy stop 1.62 EURGBP at 0.83454 sl: 0.82970 tp: 0.00000
+0	20:48:48.333	'1755661': pending order #193856882 was deleted
+0	20:48:51.079	'1755661': close order #193856462 sell 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000 at price 0.000
+0	20:48:51.364	'1755661': order #193856462 sell 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000 closed at price 116.171
+0	20:48:51.406	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:51.661	'1755661': order was opened : #193856896 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:52.079	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:48:52.349	'1755661': order was opened : #193856897 sell stop 1.62 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:48:52.680	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:52.989	'1755661': order was opened : #193856898 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:53.379	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:53.630	'1755661': order was opened : #193856899 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:53.991	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:54.270	'1755661': order was opened : #193856900 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:54.584	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:54.911	'1755661': order was opened : #193856901 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:55.228	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:55.505	'1755661': order was opened : #193856902 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:55.879	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:56.146	'1755661': order was opened : #193856903 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:56.480	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:48:56.739	'1755661': order was opened : #193856904 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:49:20.029	'1755661': delete pending order #193856904 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:49:20.285	'1755661': pending order #193856904 was deleted
+0	20:49:20.328	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:49:20.566	'1755661': order was opened : #193856913 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+0	20:49:44.029	'1755661': delete pending order #193856914 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+1	20:49:44.299	'1755661': deleting of invalid order #193856914
+0	20:49:44.299	'1755661': delete pending order #193856913 sell stop 1.62 USDJPY at 116.153 sl: 116.636 tp: 0.000
+1	20:49:44.596	'1755661': deleting of invalid order #193856913
+0	20:49:44.636	'1755661': pending order sell stop 1.62 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:49:44.893	'1755661': order was opened : #193856918 sell stop 1.62 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:50:08.029	'1755661': delete pending order #193856919 sell stop 1.62 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:50:08.282	'1755661': pending order #193856919 was deleted
+0	20:50:08.283	'1755661': delete pending order #193856918 sell stop 1.62 USDJPY at 116.153 sl: 116.637 tp: 0.000
+0	20:50:08.533	'1755661': pending order #193856918 was deleted
+0	20:50:08.570	'1755661': pending order sell stop 1.62 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:50:08.829	'1755661': order was opened : #193856943 sell stop 1.62 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:50:32.028	'1755661': delete pending order #193856945 sell stop 1.62 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:50:32.313	'1755661': pending order #193856945 was deleted
+0	20:50:32.313	'1755661': delete pending order #193856943 sell stop 1.62 USDJPY at 116.147 sl: 116.630 tp: 0.000
+0	20:50:32.563	'1755661': pending order #193856943 was deleted
+0	20:50:32.600	'1755661': pending order sell stop 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000
+0	20:50:32.860	'1755661': order was opened : #193856953 sell stop 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000
+0	20:50:56.029	'1755661': delete pending order #193856954 sell stop 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000
+1	20:50:56.327	'1755661': deleting of invalid order #193856954
+0	20:50:56.327	'1755661': delete pending order #193856953 sell stop 1.62 USDJPY at 116.154 sl: 116.638 tp: 0.000
+1	20:50:56.592	'1755661': deleting of invalid order #193856953
+0	20:50:56.635	'1755661': pending order sell stop 1.62 USDJPY at 116.155 sl: 116.638 tp: 0.000
+0	20:50:56.937	'1755661': order was opened : #193856968 sell stop 1.62 USDJPY at 116.155 sl: 116.638 tp: 0.000
+0	20:51:20.029	'1755661': delete pending order #193856969 sell stop 1.62 USDJPY at 116.155 sl: 116.638 tp: 0.000
+1	20:51:20.311	'1755661': deleting of invalid order #193856969
+0	20:51:20.313	'1755661': delete pending order #193856968 sell stop 1.62 USDJPY at 116.155 sl: 116.638 tp: 0.000
+0	20:51:20.561	'1755661': pending order #193856968 was deleted
+0	20:51:20.597	'1755661': pending order sell stop 1.62 USDJPY at 116.161 sl: 116.645 tp: 0.000
+0	20:51:20.857	'1755661': order was opened : #193856974 sell stop 1.62 USDJPY at 116.161 sl: 116.645 tp: 0.000
+0	20:51:44.029	'1755661': delete pending order #193856975 sell stop 1.62 USDJPY at 116.161 sl: 116.645 tp: 0.000
+0	20:51:44.278	'1755661': pending order #193856975 was deleted
+0	20:51:44.278	'1755661': delete pending order #193856974 sell stop 1.62 USDJPY at 116.161 sl: 116.645 tp: 0.000
+0	20:51:44.528	'1755661': pending order #193856974 was deleted
+0	20:51:44.568	'1755661': pending order sell stop 1.62 USDJPY at 116.166 sl: 116.648 tp: 0.000
+0	20:51:44.825	'1755661': order was opened : #193856988 sell stop 1.62 USDJPY at 116.166 sl: 116.648 tp: 0.000
+0	20:51:46.591	'1755661': order #193856988 sell stop 1.62 USDJPY at 116.166 activated at price 116.166
+0	20:51:46.591	'1755661': order #193856989 sell stop 1.62 USDJPY at 116.166 activated at price 116.166
+0	21:00:12.788	'1755661': pending order buy stop 1.62 EURGBP at 0.83430 sl: 0.82945 tp: 0.00000
+0	21:00:13.039	'1755661': order was opened : #193857727 buy stop 1.62 EURGBP at 0.83430 sl: 0.82945 tp: 0.00000
+0	21:00:36.179	'1755661': delete pending order #193857728 buy stop 1.62 EURGBP at 0.83430 sl: 0.82945 tp: 0.00000
+0	21:00:36.444	'1755661': pending order #193857728 was deleted
+0	21:00:36.444	'1755661': delete pending order #193857727 buy stop 1.62 EURGBP at 0.83430 sl: 0.82945 tp: 0.00000
+0	21:00:36.694	'1755661': pending order #193857727 was deleted
+0	21:01:48.178	'1755661': close order #193856989 sell 1.62 USDJPY at 116.166 sl: 116.648 tp: 0.000 at price 0.000
+1	21:01:48.457	'1755661': order #193856989 sell 1.62 USDJPY closing at 0.000 failed [Invalid parameters]
+0	21:01:48.495	'1755661': close order #193856988 sell 1.62 USDJPY at 116.166 sl: 116.648 tp: 0.000 at price 0.000
+0	21:01:48.754	'1755661': order #193856988 sell 1.62 USDJPY at 116.166 sl: 116.648 tp: 0.000 closed at price 116.180
+0	21:01:48.786	'1755661': pending order sell stop 1.61 USDJPY at 116.161 sl: 116.645 tp: 0.000
+0	21:01:49.050	'1755661': order was opened : #193857809 sell stop 1.61 USDJPY at 116.161 sl: 116.645 tp: 0.000
+0	21:02:09.300	'1755661': order #193857809 sell stop 1.61 USDJPY at 116.161 activated at price 116.161
+0	21:02:09.300	'1755661': order #193857810 sell stop 1.61 USDJPY at 116.161 activated at price 116.161
+0	21:04:34.628	'1755661': pending order buy stop 1.61 EURGBP at 0.83442 sl: 0.82958 tp: 0.00000
+0	21:04:34.904	'1755661': order was opened : #193857871 buy stop 1.61 EURGBP at 0.83442 sl: 0.82958 tp: 0.00000
+0	21:04:58.178	'1755661': delete pending order #193857871 buy stop 1.61 EURGBP at 0.83442 sl: 0.82958 tp: 0.00000
+0	21:04:58.466	'1755661': pending order #193857871 was deleted
+0	21:04:58.467	'1755661': delete pending order #193857870 buy stop 1.61 EURGBP at 0.83442 sl: 0.82958 tp: 0.00000
+0	21:04:58.762	'1755661': pending order #193857870 was deleted
+0	21:07:50.329	'1755661': close order #193857810 sell 1.61 USDJPY at 116.161 sl: 116.645 tp: 0.000 at price 0.000
+0	21:07:50.584	'1755661': order #193857810 sell 1.61 USDJPY at 116.161 sl: 116.645 tp: 0.000 closed at price 116.160
+0	21:07:50.584	'1755661': close order #193857809 sell 1.61 USDJPY at 116.161 sl: 116.645 tp: 0.000 at price 0.000
+0	21:07:50.834	'1755661': order #193857809 sell 1.61 USDJPY at 116.161 sl: 116.645 tp: 0.000 closed at price 116.160
+0	21:07:57.178	'1755661': pending order sell stop 1.61 USDJPY at 116.138 sl: 116.620 tp: 0.000
+0	21:07:57.474	'1755661': order was opened : #193857939 sell stop 1.61 USDJPY at 116.138 sl: 116.620 tp: 0.000
+0	21:08:21.278	'1755661': delete pending order #193857939 sell stop 1.61 USDJPY at 116.138 sl: 116.620 tp: 0.000
+0	21:08:21.585	'1755661': pending order #193857939 was deleted
+0	21:08:21.586	'1755661': delete pending order #193857938 sell stop 1.61 USDJPY at 116.138 sl: 116.620 tp: 0.000
+0	21:08:21.879	'1755661': pending order #193857938 was deleted
+0	21:08:21.910	'1755661': pending order sell stop 1.61 USDJPY at 116.140 sl: 116.624 tp: 0.000
+0	21:08:22.223	'1755661': order was opened : #193857944 sell stop 1.61 USDJPY at 116.140 sl: 116.624 tp: 0.000
+0	21:08:46.328	'1755661': delete pending order #193857945 sell stop 1.61 USDJPY at 116.140 sl: 116.624 tp: 0.000
+0	21:08:46.628	'1755661': pending order #193857945 was deleted
+0	21:08:46.629	'1755661': delete pending order #193857944 sell stop 1.61 USDJPY at 116.140 sl: 116.624 tp: 0.000
+0	21:08:46.926	'1755661': pending order #193857944 was deleted
+0	21:08:46.958	'1755661': pending order sell stop 1.61 USDJPY at 116.137 sl: 116.621 tp: 0.000
+0	21:08:47.223	'1755661': order was opened : #193857950 sell stop 1.61 USDJPY at 116.137 sl: 116.621 tp: 0.000
+0	21:09:03.300	'1755661': order #193857950 sell stop 1.61 USDJPY at 116.137 activated at price 116.137
+0	21:09:03.300	'1755661': order #193857951 sell stop 1.61 USDJPY at 116.137 activated at price 116.137
+0	21:10:20.089	'1755661': close order #193857951 sell 1.61 USDJPY at 116.137 sl: 116.621 tp: 0.000 at price 0.000
+1	21:10:20.375	'1755661': order #193857951 sell 1.61 USDJPY closing at 0.000 failed [Invalid parameters]
+0	21:10:20.376	'1755661': close order #193857950 sell 1.61 USDJPY at 116.137 sl: 116.621 tp: 0.000 at price 0.000
+1	21:10:20.671	'1755661': order #193857950 sell 1.61 USDJPY closing at 0.000 failed [Invalid parameters]
+0	21:10:20.709	'1755661': pending order sell stop 1.61 USDJPY at 116.117 sl: 116.600 tp: 0.000
+0	21:10:20.984	'1755661': order was opened : #193858019 sell stop 1.61 USDJPY at 116.117 sl: 116.600 tp: 0.000
+0	21:10:44.132	'1755661': delete pending order #193858019 sell stop 1.61 USDJPY at 116.117 sl: 116.600 tp: 0.000
+0	21:10:44.406	'1755661': pending order #193858019 was deleted
+0	21:10:44.406	'1755661': delete pending order #193858018 sell stop 1.61 USDJPY at 116.117 sl: 116.600 tp: 0.000
+0	21:10:44.703	'1755661': pending order #193858018 was deleted
+0	21:10:44.741	'1755661': pending order sell stop 1.61 USDJPY at 116.113 sl: 116.595 tp: 0.000
+0	21:10:45.015	'1755661': order was opened : #193858039 sell stop 1.61 USDJPY at 116.113 sl: 116.595 tp: 0.000
+0	21:11:08.179	'1755661': delete pending order #193858039 sell stop 1.61 USDJPY at 116.113 sl: 116.595 tp: 0.000
+1	21:11:08.482	'1755661': deleting of invalid order #193858039
+0	21:11:08.483	'1755661': delete pending order #193858038 sell stop 1.61 USDJPY at 116.113 sl: 116.595 tp: 0.000
+1	21:11:08.748	'1755661': deleting of invalid order #193858038
+0	21:11:08.782	'1755661': pending order sell stop 1.61 USDJPY at 116.116 sl: 116.600 tp: 0.000
+0	21:11:09.061	'1755661': order was opened : #193858053 sell stop 1.61 USDJPY at 116.116 sl: 116.600 tp: 0.000
+0	21:11:32.179	'1755661': delete pending order #193858053 sell stop 1.61 USDJPY at 116.116 sl: 116.600 tp: 0.000
+0	21:11:32.450	'1755661': pending order #193858053 was deleted
+0	21:11:32.450	'1755661': delete pending order #193858052 sell stop 1.61 USDJPY at 116.116 sl: 116.600 tp: 0.000
+1	21:11:32.762	'1755661': deleting of invalid order #193858052
+0	21:11:32.802	'1755661': pending order sell stop 1.61 USDJPY at 116.110 sl: 116.594 tp: 0.000
+0	21:11:33.122	'1755661': order was opened : #193858072 sell stop 1.61 USDJPY at 116.110 sl: 116.594 tp: 0.000
+0	21:11:49.578	'1755661': modify pending order #193858072 sell stop 1.61 USDJPY at 116.110 sl: 116.594 tp: 0.000 -> price: 116.123 sl: 116.607 tp: 0.000
+0	21:11:49.825	'1755661': pending order #193858072 sell stop 1.61 USDJPY was modified -> price: 116.123 sl: 116.607 tp: 0.000
+0	21:11:49.825	'1755661': modify pending order #193858071 sell stop 1.61 USDJPY at 116.110 sl: 116.594 tp: 0.000 -> price: 116.123 sl: 116.607 tp: 0.000
+0	21:11:50.074	'1755661': pending order #193858071 sell stop 1.61 USDJPY was modified -> price: 116.123 sl: 116.607 tp: 0.000
+0	21:11:56.135	'1755661': delete pending order #193858072 sell stop 1.61 USDJPY at 116.123 sl: 116.607 tp: 0.000
+0	21:11:56.434	'1755661': pending order #193858072 was deleted
+0	21:11:56.434	'1755661': delete pending order #193858071 sell stop 1.61 USDJPY at 116.123 sl: 116.607 tp: 0.000
+0	21:11:56.730	'1755661': pending order #193858071 was deleted
+0	21:11:56.769	'1755661': pending order sell stop 1.61 USDJPY at 116.120 sl: 116.604 tp: 0.000
+0	21:11:57.028	'1755661': order was opened : #193858078 sell stop 1.61 USDJPY at 116.120 sl: 116.604 tp: 0.000
+0	21:12:19.379	'1755661': modify pending order #193858079 sell stop 1.61 USDJPY at 116.120 sl: 116.604 tp: 0.000 -> price: 116.130 sl: 116.613 tp: 0.000
+0	21:12:19.683	'1755661': order #0 buy 0.00  at 0 was modified -> sl: 0 tp: 0
+0	21:12:19.683	'1755661': modify pending order #193858078 sell stop 1.61 USDJPY at 116.120 sl: 116.604 tp: 0.000 -> price: 116.130 sl: 116.613 tp: 0.000
+0	21:12:19.948	'1755661': order #0 buy 0.00  at 0 was modified -> sl: 0 tp: 0
+0	21:12:20.179	'1755661': delete pending order #193858079 sell stop 1.61 USDJPY at 116.130 sl: 116.613 tp: 0.000
+1	21:12:20.433	'1755661': deleting of invalid order #193858079
+0	21:12:20.434	'1755661': delete pending order #193858078 sell stop 1.61 USDJPY at 116.130 sl: 116.613 tp: 0.000
+0	21:12:20.683	'1755661': pending order #193858078 was deleted
+0	21:12:20.724	'1755661': pending order sell stop 1.61 USDJPY at 116.130 sl: 116.613 tp: 0.000
+0	21:12:21.026	'1755661': order was opened : #193858087 sell stop 1.61 USDJPY at 116.130 sl: 116.613 tp: 0.000
+0	21:12:44.279	'1755661': delete pending order #193858087 sell stop 1.61 USDJPY at 116.130 sl: 116.613 tp: 0.000
+1	21:12:44.542	'1755661': deleting of invalid order #193858087
+0	21:12:44.542	'1755661': delete pending order #193858086 sell stop 1.61 USDJPY at 116.130 sl: 116.613 tp: 0.000
+0	21:12:44.791	'1755661': pending order #193858086 was deleted
+0	21:12:44.829	'1755661': pending order sell stop 1.61 USDJPY at 116.126 sl: 116.609 tp: 0.000
+0	21:12:45.089	'1755661': order was opened : #193858092 sell stop 1.61 USDJPY at 116.126 sl: 116.609 tp: 0.000
+0	21:12:53.057	'1755661': order #193858092 sell stop 1.61 USDJPY at 116.126 activated at price 116.126
+0	21:21:27.830	'1755661': pending order buy stop 1.61 EURGBP at 0.83437 sl: 0.82953 tp: 0.00000
+0	21:21:28.066	'1755661': order was opened : #193858305 buy stop 1.61 EURGBP at 0.83437 sl: 0.82953 tp: 0.00000
+0	21:21:28.130	'1755661': delete pending order #193858306 buy stop 1.61 EURGBP at 0.83437 sl: 0.82953 tp: 0.00000
+0	21:21:28.379	'1755661': pending order #193858306 was deleted
+0	21:21:51.130	'1755661': delete pending order #193858305 buy stop 1.61 EURGBP at 0.83437 sl: 0.82953 tp: 0.00000
+1	21:21:51.378	'1755661': deleting of invalid order #193858305
+0	21:24:01.992	'1755661': close order #193858092 sell 1.61 USDJPY at 116.126 sl: 116.609 tp: 0.000 at price 0.000
+0	21:24:02.263	'1755661': order #193858092 sell 1.61 USDJPY at 116.126 sl: 116.609 tp: 0.000 closed at price 116.104
+0	21:24:15.730	'1755661': pending order sell stop 1.62 USDJPY at 116.082 sl: 116.567 tp: 0.000
+0	21:24:15.997	'1755661': order was opened : #193858376 sell stop 1.62 USDJPY at 116.082 sl: 116.567 tp: 0.000
+0	21:24:39.187	'1755661': delete pending order #193858376 sell stop 1.62 USDJPY at 116.082 sl: 116.567 tp: 0.000
+1	21:24:39.449	'1755661': deleting of invalid order #193858376
+0	21:24:39.489	'1755661': pending order sell stop 1.62 USDJPY at 116.079 sl: 116.562 tp: 0.000
+0	21:24:39.746	'1755661': order was opened : #193858377 sell stop 1.62 USDJPY at 116.079 sl: 116.562 tp: 0.000
+0	21:25:03.178	'1755661': delete pending order #193858378 sell stop 1.62 USDJPY at 116.079 sl: 116.562 tp: 0.000
+1	21:25:03.447	'1755661': deleting of invalid order #193858378
+0	21:25:03.448	'1755661': delete pending order #193858377 sell stop 1.62 USDJPY at 116.079 sl: 116.562 tp: 0.000
+0	21:25:03.697	'1755661': pending order #193858377 was deleted
+0	21:25:03.740	'1755661': pending order sell stop 1.62 USDJPY at 116.080 sl: 116.562 tp: 0.000
+0	21:25:03.995	'1755661': order was opened : #193858400 sell stop 1.62 USDJPY at 116.080 sl: 116.562 tp: 0.000
+0	21:25:27.179	'1755661': delete pending order #193858401 sell stop 1.62 USDJPY at 116.080 sl: 116.562 tp: 0.000
+0	21:25:27.431	'1755661': pending order #193858401 was deleted
+0	21:25:27.431	'1755661': delete pending order #193858400 sell stop 1.62 USDJPY at 116.080 sl: 116.562 tp: 0.000
+0	21:25:27.681	'1755661': pending order #193858400 was deleted
+0	21:25:27.722	'1755661': pending order sell stop 1.62 USDJPY at 116.077 sl: 116.561 tp: 0.000
+0	21:25:27.978	'1755661': order was opened : #193858415 sell stop 1.62 USDJPY at 116.077 sl: 116.561 tp: 0.000
+0	21:25:28.128	'1755661': delete pending order #193858416 sell stop 1.62 USDJPY at 116.077 sl: 116.561 tp: 0.000
+0	21:25:28.384	'1755661': pending order #193858416 was deleted
+0	21:25:51.228	'1755661': delete pending order #193858415 sell stop 1.62 USDJPY at 116.077 sl: 116.561 tp: 0.000
+0	21:25:51.461	'1755661': pending order #193858415 was deleted
+0	21:25:51.505	'1755661': pending order sell stop 1.62 USDJPY at 116.084 sl: 116.567 tp: 0.000
+0	21:25:51.758	'1755661': order was opened : #193858449 sell stop 1.62 USDJPY at 116.084 sl: 116.567 tp: 0.000
+0	21:26:15.580	'1755661': delete pending order #193858450 sell stop 1.62 USDJPY at 116.084 sl: 116.567 tp: 0.000
+0	21:26:15.820	'1755661': pending order #193858450 was deleted
+0	21:26:15.820	'1755661': delete pending order #193858449 sell stop 1.62 USDJPY at 116.084 sl: 116.567 tp: 0.000
+0	21:26:16.101	'1755661': pending order #193858449 was deleted
+0	21:26:16.142	'1755661': pending order sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:26:16.399	'1755661': order was opened : #193858465 sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:26:40.230	'1755661': delete pending order #193858466 sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:26:40.506	'1755661': pending order #193858466 was deleted
+0	21:26:40.506	'1755661': delete pending order #193858465 sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:26:40.803	'1755661': pending order #193858465 was deleted
+0	21:26:40.832	'1755661': pending order sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:26:41.100	'1755661': order was opened : #193858473 sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:26:41.105	'1755661': delete pending order #193858474 sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:26:41.397	'1755661': pending order #193858474 was deleted
+0	21:27:04.129	'1755661': delete pending order #193858473 sell stop 1.62 USDJPY at 116.087 sl: 116.571 tp: 0.000
+0	21:27:04.395	'1755661': pending order #193858473 was deleted
+0	21:27:04.434	'1755661': pending order sell stop 1.62 USDJPY at 116.085 sl: 116.569 tp: 0.000
+0	21:27:04.693	'1755661': order was opened : #193858486 sell stop 1.62 USDJPY at 116.085 sl: 116.569 tp: 0.000
+0	21:27:13.848	'1755661': order #193858486 sell stop 1.62 USDJPY at 116.085 activated at price 116.085
+0	21:27:13.848	'1755661': order #193858487 sell stop 1.62 USDJPY at 116.085 activated at price 116.085
+0	21:27:31.178	'1755661': pending order buy stop 1.62 EURGBP at 0.83450 sl: 0.82966 tp: 0.00000
+0	21:27:31.458	'1755661': order was opened : #193858491 buy stop 1.62 EURGBP at 0.83450 sl: 0.82966 tp: 0.00000
+0	21:27:55.128	'1755661': delete pending order #193858492 buy stop 1.62 EURGBP at 0.83450 sl: 0.82966 tp: 0.00000
+0	21:27:55.378	'1755661': pending order #193858492 was deleted
+0	21:27:55.378	'1755661': delete pending order #193858491 buy stop 1.62 EURGBP at 0.83450 sl: 0.82966 tp: 0.00000
+0	21:27:55.628	'1755661': pending order #193858491 was deleted
+0	21:27:55.662	'1755661': pending order buy stop 1.62 EURGBP at 0.83448 sl: 0.82963 tp: 0.00000
+0	21:27:55.925	'1755661': order was opened : #193858498 buy stop 1.62 EURGBP at 0.83448 sl: 0.82963 tp: 0.00000
+0	21:28:20.030	'1755661': delete pending order #193858499 buy stop 1.62 EURGBP at 0.83448 sl: 0.82963 tp: 0.00000
+1	21:28:20.314	'1755661': deleting of invalid order #193858499
+0	21:28:20.314	'1755661': delete pending order #193858498 buy stop 1.62 EURGBP at 0.83448 sl: 0.82963 tp: 0.00000
+1	21:28:20.565	'1755661': deleting of invalid order #193858498
+0	21:37:14.299	'1755661': close order #193858487 sell 1.62 USDJPY at 116.085 sl: 116.569 tp: 0.000 at price 0.000
+1	21:37:14.606	'1755661': order #193858487 sell 1.62 USDJPY closing at 0.000 failed [Invalid parameters]
+0	21:37:14.647	'1755661': close order #193858486 sell 1.62 USDJPY at 116.085 sl: 116.569 tp: 0.000 at price 0.000
+1	21:37:14.918	'1755661': order #193858486 sell 1.62 USDJPY closing at 0.000 failed [Invalid parameters]
+0	21:37:14.961	'1755661': pending order sell stop 1.61 USDJPY at 116.087 sl: 116.570 tp: 0.000
+0	21:37:15.215	'1755661': order was opened : #193858756 sell stop 1.61 USDJPY at 116.087 sl: 116.570 tp: 0.000
+0	21:37:39.128	'1755661': delete pending order #193858756 sell stop 1.61 USDJPY at 116.087 sl: 116.570 tp: 0.000
+0	21:37:39.386	'1755661': pending order #193858756 was deleted
+0	21:37:39.387	'1755661': delete pending order #193858755 sell stop 1.61 USDJPY at 116.087 sl: 116.570 tp: 0.000
+0	21:37:39.652	'1755661': pending order #193858755 was deleted
+0	21:37:39.689	'1755661': pending order sell stop 1.61 USDJPY at 116.090 sl: 116.572 tp: 0.000
+0	21:37:39.996	'1755661': order was opened : #193858793 sell stop 1.61 USDJPY at 116.090 sl: 116.572 tp: 0.000
+0	23:21:56.981	TW MetaTrader 4 build 1353 started (TW Corp.)
+0	23:21:56.982	Microsoft Windows 7 x64, IE 11, 8 x AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx, Memory: 8773 / 17483 Mb, Disk: 121 / 191 Gb, GMT+2
+0	23:21:56.982	Data Folder: Z:\home\trev\ZIMBO\headless-metatrader4\mt4-distro
+0	23:21:57.209	Started with configuration file 'startup.ini'
+2	23:21:58.416	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	23:35:11.661	TW MetaTrader 4 build 1353 started (TW Corp.)
+0	23:35:11.661	Microsoft Windows 7 x64, IE 11, 8 x AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx, Memory: 8448 / 17483 Mb, Disk: 121 / 191 Gb, GMT+2
+0	23:35:11.661	Data Folder: Z:\home\trev\ZIMBO\headless-metatrader4\mt4-distro
+0	23:35:11.901	Started with configuration file 'startup.ini'
+2	23:35:12.931	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	23:35:32.954	'1755661': login on TradersWay-Demo through Data Center 2 (ping: 179.11 ms)
+0	23:35:34.776	'1755661': login datacenter on TradersWay-Demo through Data Center 2 (ping: 179.11 ms)
+0	23:35:35.230	'1755661': previous successful authorization performed from 169.0.170.29
+2	23:36:50.661	Expert Neverland_301 EURUSD,H1: removed
+2	23:36:50.679	Expert test EURUSD,H1: loaded successfully
+2	23:37:42.529	Expert test EURUSD,H1: removed
+2	23:37:42.543	Expert test EURUSD,H1: loaded successfully
+2	23:38:15.443	Expert test EURUSD,H1: removed
+2	23:38:15.466	Expert test EURUSD,H1: loaded successfully
+2	23:38:29.121	Expert test EURUSD,H1: removed
+2	23:38:29.136	Expert test EURUSD,H1: loaded successfully
+2	23:43:52.316	Expert test EURUSD,H1: removed
+2	23:43:52.333	Expert test EURUSD,H1: loaded successfully
+2	23:45:32.035	Expert test EURUSD,H1: removed
+2	23:45:32.048	Expert test2 EURUSD,H1: loaded successfully
+2	23:46:01.482	Expert test2 EURUSD,H1: removed
+2	23:46:01.504	Expert test2 EURUSD,H1: loaded successfully
+2	23:46:41.915	Expert test2 EURUSD,H1: removed
+2	23:46:41.929	Expert test2 EURUSD,H1: loaded successfully
+2	23:51:26.987	Expert test2 EURUSD,H1: removed
+2	23:51:26.997	Expert test2 EURUSD,H1: loaded successfully
+2	23:51:47.915	Expert test2 EURUSD,H1: removed
+2	23:51:47.928	Expert test2 EURUSD,H1: loaded successfully
+2	23:52:18.211	Expert test2 EURUSD,H1: removed
+2	23:52:18.228	Expert test2 EURUSD,H1: loaded successfully
+2	23:52:47.023	Expert test2 EURUSD,H1: removed
+2	23:52:47.047	Expert test2 EURUSD,H1: loaded successfully
+2	23:53:20.452	Expert test2 EURUSD,H1: removed
+2	23:53:20.467	Expert test2 EURUSD,H1: loaded successfully
+2	23:53:39.056	Expert test2 EURUSD,H1: removed
+2	23:53:39.074	Expert test2 EURUSD,H1: loaded successfully
+2	23:54:04.386	Expert test2 EURUSD,H1: removed
+2	23:54:04.408	Expert test2 EURUSD,H1: loaded successfully
+2	23:54:11.449	Expert test2 EURUSD,H1: removed
+2	23:54:11.469	Expert test2 EURUSD,H1: loaded successfully
+2	23:54:59.375	Expert test2 EURUSD,H1: removed
+2	23:54:59.389	Expert test2 EURUSD,H1: loaded successfully
+2	23:55:51.860	Expert test2 EURUSD,H1: removed
+2	23:55:51.876	Expert test2 EURUSD,H1: loaded successfully
+2	23:55:58.778	Expert test2 EURUSD,H1: removed
+2	23:55:58.798	Expert test2 EURUSD,H1: loaded successfully
+2	23:56:35.712	Expert test2 EURUSD,H1: removed
+2	23:56:35.729	Expert test2 EURUSD,H1: loaded successfully
+2	23:57:49.334	Expert test2 EURUSD,H1: removed
+2	23:57:49.357	Expert test2 EURUSD,H1: loaded successfully
