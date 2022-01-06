@@ -44,6 +44,7 @@ sleep 2
 # @TODO Use special argument to pass value "startup.ini"
 nl=$'\n'
 #mv experts.ini config/
+echo "${nl}IvInvest=$IVINVEST_ID${nl}WebHost=$IBOT_HOST${nl}WebPort=$IBOT_PORT${nl}" >> MQL4/Presets/ibot.set 
 echo "${nl}Login=$MT4_ACCOUNT${nl}Password=$MT4_PASSWORD${nl}" >> startup.ini 
 wine terminal /portable startup.ini &
 node MQL4/Node/server.js &

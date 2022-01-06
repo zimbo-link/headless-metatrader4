@@ -1,0 +1,209 @@
+0	19:28:41.760	TW MetaTrader 4 build 1353 started (TW Corp.)
+0	19:28:41.761	Microsoft Windows 7 x64, IE 11, 8 x AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx, Memory: 10608 / 17483 Mb, Disk: 108 / 191 Gb, GMT+2
+0	19:28:41.761	Data Folder: Z:\home\trev\ZIMBO\headless-metatrader4\mt4-distro
+0	19:28:41.994	Started with configuration file 'startup.ini'
+2	19:28:43.143	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	19:29:14.515	'1755661': login on TradersWay-Demo through Data Center 1 (ping: 190.91 ms)
+0	19:29:16.722	'1755661': login datacenter on TradersWay-Demo through Data Center 1 (ping: 190.91 ms)
+0	19:29:17.200	'1755661': previous successful authorization performed from 54.74.167.139
+0	19:29:20.665	'1755661': close order #193982431 buy 2.20 USDJPY at 115.796 sl: 115.313 tp: 0.000 at price 0.000
+0	19:29:20.983	'1755661': order #193982431 buy 2.20 USDJPY at 115.796 sl: 115.313 tp: 0.000 closed at price 115.777
+0	19:29:25.419	'1755661': ping to current access point Data Center 1 is 186.58 ms
+0	19:29:35.586	'1755661': pending order buy stop 2.19 USDJPY at 115.793 sl: 115.308 tp: 0.000
+0	19:29:35.903	Trades: use hosting service to speed up the execution - 1.05 ms via 'MQL5 Amsterdam 02 (MQL5.community)' instead of 186.58 ms
+0	19:29:35.904	'1755661': order was opened : #193985405 buy stop 2.19 USDJPY at 115.793 sl: 115.308 tp: 0.000
+0	19:29:59.386	'1755661': delete pending order #193985405 buy stop 2.19 USDJPY at 115.793 sl: 115.308 tp: 0.000
+0	19:29:59.699	'1755661': pending order #193985405 was deleted
+0	19:29:59.856	'1755661': pending order buy stop 2.19 USDJPY at 115.795 sl: 115.311 tp: 0.000
+0	19:30:00.168	'1755661': order was opened : #193985431 buy stop 2.19 USDJPY at 115.795 sl: 115.311 tp: 0.000
+0	19:30:07.370	'1755661': order #193985431 buy stop 2.19 USDJPY at 115.795 activated at price 115.795
+2	19:30:20.435	Expert Neverland_301 EURUSD,H1: removed
+2	19:30:20.452	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	19:31:30.260	Expert Neverland_304 EURUSD,H1: removed
+2	19:31:30.280	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	19:32:08.681	Expert Neverland_304 EURUSD,H1: removed
+2	19:32:08.698	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	19:32:47.540	Expert Neverland_304 EURUSD,H1: removed
+2	19:32:47.556	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	19:32:55.997	Expert Neverland_304 EURUSD,H1: removed
+2	19:32:56.014	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	19:33:39.547	Expert Neverland_304 EURUSD,H1: removed
+2	19:33:39.568	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	19:48:53.467	'1755661': close order #193985431 buy 2.19 USDJPY at 115.795 sl: 115.311 tp: 0.000 at price 0.000
+0	19:48:53.778	'1755661': order #193985431 buy 2.19 USDJPY at 115.795 sl: 115.311 tp: 0.000 closed at price 115.817
+0	19:54:56.122	'1755661': order #193986369 buy stop 2.20 EURUSD at 1.12971 activated at price 1.12971
+0	19:55:39.823	'1755661': order #193986423 buy stop 2.20 EURJPY at 130.841 activated at price 130.841
+0	19:58:26.617	'1755661': pending order sell stop 0.97 USDCHF at 0.92054 sl: 0.92252 tp: 0.00000
+0	19:58:26.942	'1755661': order was opened : #193986546 sell stop 0.97 USDCHF at 0.92054 sl: 0.92252 tp: 0.00000
+0	19:59:13.018	'1755661': pending order sell stop 0.97 USDCHF at 0.92048 sl: 0.92246 tp: 0.00000
+0	19:59:13.298	'1755661': order was opened : #193986573 sell stop 0.97 USDCHF at 0.92048 sl: 0.92246 tp: 0.00000
+0	19:59:30.782	'1755661': order #193986573 sell stop 0.97 USDCHF at 0.92048 activated at price 0.92048
+0	20:03:34.373	'1755661': close order #193987066 sell 2.91 USDCHF at 0.92066 sl: 0.92246 tp: 0.00000 at price 0.00000
+0	20:03:34.664	'1755661': order #193987066 sell 2.91 USDCHF at 0.92066 sl: 0.92246 tp: 0.00000 closed at price 0.92058
+0	20:03:34.664	'1755661': close order #193986573 sell 0.97 USDCHF at 0.92048 sl: 0.92246 tp: 0.00000 at price 0.00000
+0	20:03:34.961	'1755661': order #193986573 sell 0.97 USDCHF at 0.92048 sl: 0.92246 tp: 0.00000 closed at price 0.92058
+0	20:03:34.968	'1755661': close order #193987031 buy 2.91 EURJPY at 130.800 sl: 130.357 tp: 0.000 at price 0.000
+0	20:03:35.258	'1755661': order #193987031 buy 2.91 EURJPY at 130.800 sl: 130.357 tp: 0.000 closed at price 130.827
+0	20:03:35.258	'1755661': close order #193986423 buy 2.20 EURJPY at 130.841 sl: 130.357 tp: 0.000 at price 0.000
+0	20:03:35.570	'1755661': order #193986423 buy 2.20 EURJPY at 130.841 sl: 130.357 tp: 0.000 closed at price 130.828
+0	20:11:38.706	'1755661': order #193987504 buy stop 2.21 EURUSD at 1.12940 activated at price 1.12940
+0	20:22:18.572	'1755661': order #193987906 buy stop 2.20 EURUSD at 1.12951 activated at price 1.12951
+0	20:29:30.413	'1755661': order #193988113 buy stop 2.20 USDJPY at 115.783 activated at price 115.783
+0	20:29:30.417	'1755661': close order #193988113 buy 2.20 USDJPY at 115.783 sl: 115.299 tp: 0.000 at price 0.000
+0	20:29:30.680	'1755661': order #193988113 buy 2.20 USDJPY at 115.783 sl: 115.299 tp: 0.000 closed at price 115.772
+2	20:30:01.186	Expert Neverland_304 EURUSD,H1: removed
+2	20:30:01.209	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:32:05.015	Expert Neverland_304 EURUSD,H1: removed
+2	20:32:05.032	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:32:08.922	Expert Neverland_304 EURUSD,H1: removed
+2	20:32:08.940	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:32:23.136	Expert Neverland_304 EURUSD,H1: removed
+2	20:32:23.151	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:34:40.641	Expert Neverland_304 EURUSD,H1: removed
+2	20:34:40.662	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:35:14.704	Expert Neverland_304 EURUSD,H1: removed
+2	20:35:14.720	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	20:35:24.742	'1755661': order #193988446 buy stop 2.19 EURUSD at 1.12945 activated at price 1.12945
+2	20:35:59.638	Expert Neverland_304 EURUSD,H1: removed
+2	20:35:59.658	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:39:01.895	Expert Neverland_304 EURUSD,H1: removed
+2	20:39:01.912	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:39:35.932	Expert Neverland_304 EURUSD,H1: removed
+2	20:39:35.956	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	20:40:46.479	'1755661': order #193988594 buy stop 2.19 USDJPY at 115.804 activated at price 115.804
+2	20:41:03.087	Expert Neverland_304 EURUSD,H1: removed
+2	20:41:03.104	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:42:32.074	Expert Neverland_304 EURUSD,H1: removed
+2	20:42:32.087	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:43:18.330	Expert Neverland_304 EURUSD,H1: removed
+2	20:43:18.347	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:44:59.067	Expert Neverland_304 EURUSD,H1: removed
+2	20:44:59.085	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	20:45:19.031	'1755661': order #193988952 buy stop 2.20 GBPUSD at 1.35240 activated at price 1.35240
+2	20:45:26.831	Expert Neverland_304 EURUSD,H1: removed
+2	20:45:26.851	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:45:38.252	Expert Neverland_304 EURUSD,H1: removed
+2	20:45:38.267	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:46:24.842	Expert Neverland_304 EURUSD,H1: removed
+2	20:46:24.860	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:46:38.165	Expert Neverland_304 EURUSD,H1: removed
+2	20:46:38.184	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:49:06.650	Expert Neverland_304 EURUSD,H1: removed
+2	20:49:06.667	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	20:49:15.439	Expert Neverland_304 EURUSD,H1: removed
+2	20:49:15.456	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	20:51:08.595	'1755661': order #193989133 buy stop 2.18 EURUSD at 1.12922 activated at price 1.12922
+0	20:53:06.967	'1755661': close order #193988952 buy 2.20 GBPUSD at 1.35240 sl: 1.34756 tp: 0.00000 at price 0.00000
+0	20:53:07.231	'1755661': order #193988952 buy 2.20 GBPUSD at 1.35240 sl: 1.34756 tp: 0.00000 closed at price 1.35265
+0	20:53:07.238	'1755661': pending order sell stop 0.96 USDCHF at 0.92129 sl: 0.92327 tp: 0.00000
+0	20:53:07.512	'1755661': order was opened : #193989201 sell stop 0.96 USDCHF at 0.92129 sl: 0.92327 tp: 0.00000
+0	20:53:31.810	'1755661': pending order sell stop 0.96 USDCHF at 0.92129 sl: 0.92327 tp: 0.00000
+0	20:53:32.089	'1755661': order was opened : #193989210 sell stop 0.96 USDCHF at 0.92129 sl: 0.92327 tp: 0.00000
+0	21:00:13.174	TW MetaTrader 4 build 1353 started (TW Corp.)
+0	21:00:13.174	Microsoft Windows 7 x64, IE 11, 8 x AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx, Memory: 9666 / 17483 Mb, Disk: 108 / 191 Gb, GMT+2
+0	21:00:13.174	Data Folder: Z:\home\trev\ZIMBO\headless-metatrader4\mt4-distro
+0	21:00:13.403	Started with configuration file 'startup.ini'
+2	21:00:14.521	Expert Neverland_301 EURUSD,H1: loaded successfully
+0	21:00:32.058	'1755661': login on TradersWay-Demo through Data Center 1 (ping: 186.58 ms)
+0	21:00:34.153	'1755661': login datacenter on TradersWay-Demo through Data Center 1 (ping: 186.58 ms)
+0	21:00:34.620	'1755661': previous successful authorization performed from 18.203.100.251
+0	21:00:42.564	'1755661': auto connecting to a better access point Data Center 5 (ping is 180.16 ms)
+0	21:00:43.238	'1755661': login on TradersWay-Demo through Data Center 5 (ping: 180.16 ms)
+0	21:00:45.166	'1755661': login datacenter on TradersWay-Demo through Data Center 5 (ping: 180.16 ms)
+0	21:00:45.621	'1755661': previous successful authorization performed from 169.0.168.111
+2	21:00:58.809	Expert Neverland_301 EURUSD,H1: removed
+2	21:00:58.823	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	21:02:40.128	'1755661': order #193989898 buy stop 2.19 EURUSD at 1.12938 activated at price 1.12938
+2	21:03:31.305	Expert Neverland_304 EURUSD,H1: removed
+2	21:03:31.321	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	21:11:53.148	'1755661': pending order sell stop 0.96 USDCHF at 0.92139 sl: 0.92337 tp: 0.00000
+0	21:11:53.408	Trades: use hosting service to speed up the execution - 1.05 ms via 'MQL5 Amsterdam 02 (MQL5.community)' instead of 180.16 ms
+0	21:11:53.408	'1755661': order was opened : #193990260 sell stop 0.96 USDCHF at 0.92139 sl: 0.92337 tp: 0.00000
+0	21:13:03.937	'1755661': order #193990278 buy stop 2.19 EURUSD at 1.12947 activated at price 1.12947
+2	21:19:20.663	Expert Neverland_304 EURUSD,H1: removed
+2	21:19:20.680	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:19:30.239	Expert Neverland_304 EURUSD,H1: removed
+2	21:19:30.257	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:21:03.322	Expert Neverland_304 EURUSD,H1: removed
+2	21:21:03.340	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:23:15.199	Expert Neverland_304 EURUSD,H1: removed
+2	21:23:15.216	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	21:25:11.787	'1755661': order #193990703 buy stop 2.19 EURUSD at 1.12963 activated at price 1.12963
+2	21:27:34.971	Expert Neverland_304 EURUSD,H1: removed
+2	21:27:34.988	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	21:32:04.588	'1755661': close order #193990703 buy 2.19 EURUSD at 1.12963 sl: 1.12481 tp: 0.00000 at price 0.00000
+0	21:32:04.868	'1755661': order #193990703 buy 2.19 EURUSD at 1.12963 sl: 1.12481 tp: 0.00000 closed at price 1.12985
+0	21:34:11.632	'1755661': pending order sell stop 0.96 USDCHF at 0.92105 sl: 0.92303 tp: 0.00000
+0	21:34:11.885	'1755661': order was opened : #193991126 sell stop 0.96 USDCHF at 0.92105 sl: 0.92303 tp: 0.00000
+2	21:35:30.656	Expert Neverland_304 EURUSD,H1: removed
+2	21:35:30.673	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:36:24.447	Expert Neverland_304 EURUSD,H1: removed
+2	21:36:24.467	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:36:43.828	Expert Neverland_304 EURUSD,H1: removed
+2	21:36:43.850	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:38:01.537	Expert Neverland_304 EURUSD,H1: removed
+2	21:38:01.556	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:39:30.895	Expert Neverland_304 EURUSD,H1: removed
+2	21:39:30.914	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:40:22.309	Expert Neverland_304 EURUSD,H1: removed
+2	21:40:22.325	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:41:18.258	Expert Neverland_304 EURUSD,H1: removed
+2	21:41:18.275	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:42:37.510	Expert Neverland_304 EURUSD,H1: removed
+2	21:42:37.526	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	21:45:05.398	'1755661': order #193991398 buy stop 2.19 EURUSD at 1.12977 activated at price 1.12977
+2	21:50:30.271	Expert Neverland_304 EURUSD,H1: removed
+2	21:50:30.293	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:51:26.976	Expert Neverland_304 EURUSD,H1: removed
+2	21:51:26.990	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:53:21.406	Expert Neverland_304 EURUSD,H1: removed
+2	21:53:21.423	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	21:54:29.297	Expert Neverland_304 EURUSD,H1: removed
+2	21:54:29.318	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	21:58:25.303	'1755661': pending order sell stop 0.96 USDCHF at 0.92181 sl: 0.92380 tp: 0.00000
+0	21:58:25.555	'1755661': order was opened : #193992046 sell stop 0.96 USDCHF at 0.92181 sl: 0.92380 tp: 0.00000
+0	22:00:50.657	'1755661': order #193992476 sell stop 2.19 USDJPY at 115.936 activated at price 115.936
+0	22:01:41.454	'1755661': pending order sell stop 0.96 USDCHF at 0.92216 sl: 0.92414 tp: 0.00000
+0	22:01:41.712	'1755661': order was opened : #193992575 sell stop 0.96 USDCHF at 0.92216 sl: 0.92414 tp: 0.00000
+0	22:09:32.806	'1755661': close order #193992476 sell 2.19 USDJPY at 115.936 sl: 116.420 tp: 0.000 at price 0.000
+0	22:09:33.076	'1755661': order #193992476 sell 2.19 USDJPY at 115.936 sl: 116.420 tp: 0.000 closed at price 115.915
+0	22:12:38.354	'1755661': close order #193991914 buy 3.68 EURUSD at 1.12902 sl: 1.12494 tp: 0.00000 at price 0.00000
+0	22:12:38.645	'1755661': order #193991914 buy 3.68 EURUSD at 1.12902 sl: 1.12494 tp: 0.00000 closed at price 1.12923
+0	22:12:38.646	'1755661': close order #193991589 buy 2.91 EURUSD at 1.12938 sl: 1.12494 tp: 0.00000 at price 0.00000
+0	22:12:38.939	'1755661': order #193991589 buy 2.91 EURUSD at 1.12938 sl: 1.12494 tp: 0.00000 closed at price 1.12923
+0	22:13:09.244	'1755661': order #193992977 buy stop 2.17 EURUSD at 1.12935 activated at price 1.12935
+0	22:14:07.456	'1755661': pending order sell stop 0.96 USDCHF at 0.92170 sl: 0.92368 tp: 0.00000
+0	22:14:07.736	'1755661': order was opened : #193993011 sell stop 0.96 USDCHF at 0.92170 sl: 0.92368 tp: 0.00000
+0	22:29:22.404	'1755661': pending order sell stop 0.96 USDCHF at 0.92180 sl: 0.92378 tp: 0.00000
+0	22:29:22.647	'1755661': order was opened : #193993499 sell stop 0.96 USDCHF at 0.92180 sl: 0.92378 tp: 0.00000
+2	22:38:16.694	Expert Neverland_304 EURUSD,H1: removed
+2	22:38:16.715	Expert Neverland_304 EURUSD,H1: loaded successfully
+0	22:56:05.734	'1755661': order #193994088 buy stop 2.17 EURUSD at 1.12917 activated at price 1.12917
+2	23:20:35.264	Expert Neverland_304 EURUSD,H1: removed
+2	23:20:35.281	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:24:29.511	Expert Neverland_304 EURUSD,H1: removed
+2	23:24:29.540	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:26:14.249	Expert Neverland_304 EURUSD,H1: removed
+2	23:26:14.268	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:28:56.628	Expert Neverland_304 EURUSD,H1: removed
+2	23:28:56.646	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:29:01.562	Expert Neverland_304 EURUSD,H1: removed
+2	23:29:01.580	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:29:13.311	Expert Neverland_304 EURUSD,H1: removed
+2	23:29:13.328	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:29:39.298	Expert Neverland_304 EURUSD,H1: removed
+2	23:29:39.317	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:30:07.895	Expert Neverland_304 EURUSD,H1: removed
+2	23:30:07.916	Expert Neverland_304 EURUSD,H1: loaded successfully
+2	23:30:15.644	Expert Neverland_304 EURUSD,H1: removed
+2	23:30:19.306	Expert Neverland_304 GBPUSD,H1: loaded successfully
+2	23:30:52.723	Expert Neverland_304 GBPUSD,H1: removed
+2	23:30:52.746	Expert Neverland_304 GBPUSD,H1: loaded successfully
+2	23:31:18.173	Expert Neverland_304 GBPUSD,H1: removed
+2	23:31:18.191	Expert Neverland_304 GBPUSD,H1: loaded successfully
+0	23:31:24.688	'1755661': close order #193994088 buy 2.17 EURUSD at 1.12917 sl: 1.12435 tp: 0.00000 at price 0.00000
+0	23:31:24.929	'1755661': order #193994088 buy 2.17 EURUSD at 1.12917 sl: 1.12435 tp: 0.00000 closed at price 1.12940
+2	23:36:15.780	Expert Neverland_304 GBPUSD,H1: removed
+2	23:36:15.800	Expert Neverland_304 GBPUSD,H1: loaded successfully
+2	23:37:06.410	Expert Neverland_304 GBPUSD,H1: removed
+2	23:37:06.432	Expert Neverland_304 GBPUSD,H1: loaded successfully

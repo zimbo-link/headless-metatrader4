@@ -16,11 +16,12 @@
 ## Build/Push the image
 
 ```bash
+aws ecr get-login-password --region eu-west-1 | docker login --username AWS --password-stdin 264605167596.dkr.ecr.eu-west-1.amazonaws.com
 docker build -t mt4-distro .
 docker tag mt4-distro:latest 264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
 docker push 264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
 
-docker run -d --rm --env-file env.list \
+docker run -dit --env-file env.list \
     --cap-add=SYS_PTRACE \
     264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
 

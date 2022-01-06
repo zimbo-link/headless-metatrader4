@@ -12,12 +12,18 @@
 #define _Spread_Array_ 10 
 #define _Min_ 60 
 #include <mq4-http.mqh>
+
 MqlNet INet;
  enum lotType {
    FIXED = 0,
    DYNAMIC = 1 
 }; 
  extern int IvInvest=1;
+ extern string WebHost="zimbo.link";
+ extern int WebPort=443;
+ string phrase = "";
+ 
+ 
  lotType LotType = DYNAMIC; // Lot Type
  string hostIp = "localhost"; // Socket [HOSTNAME/IP]  
  int hostPort = 8080; // Port [8080]
@@ -1887,6 +1893,7 @@ int OnInit(){
    process = new CProcess();
    process.ini();
   // initTime = (uint) TimeCurrent();
+  initMT4();
    return(INIT_SUCCEEDED);
 }
 
@@ -1914,7 +1921,7 @@ void OnChartEvent(
    }
 } 
 */
-
+/*
 double OnTester(){ 
    if( ( double ) TesterStatistics( STAT_PROFIT ) > 100 && TesterStatistics( STAT_TRADES ) > 50 ){  
       char post[],char_result[];
@@ -1955,9 +1962,10 @@ double OnTester(){
    }
    return ( 0); 
 }
-
+*/
 
 void sendHistory(int ticket, int account, string symbol, double size, int type, double profit, string closed){
+ 
    char post[],char_result[];
       string cookie = NULL, headers; 
       int res; 
@@ -1976,6 +1984,22 @@ void sendHistory(int ticket, int account, string symbol, double size, int type, 
        
 }
 
+double initMT4(){
+   string reqest = StringConcatenate("{\"type\":\"",4,"\",\"account\":\"",AccountNumber(),"\",\"ivinvest_id\":\"",IvInvest,"\"}");
+   string response = "";
+   //Make the connection
+   
+   
+   
+	if(!INet.Open(WebHost,WebPort)) return(0);
+	if(!INet.Request("POST","/confirmations",response,false, true, reqest, false))
+	{
+		return(0);
+	}
+	Print(WebHost,"-:",response);
+	return 1;
+}
+
 
   string lastReq = "";
   string lastRes = "";
@@ -1983,7 +2007,7 @@ void sendHistory(int ticket, int account, string symbol, double size, int type, 
   int lastTime;
  double make_request( double balance, double equity, double profit, string trades )
 {
-   
+   return 1;
 	//Create the client request. This is in JSON format but you can send any string
 	string reqest = StringConcatenate("{\"balance\":\"",balance,"\",\"equity\":\"",equity,"\",\"profit\":\"",profit,"\",\"trades\":[",trades,"]}");
 	 
