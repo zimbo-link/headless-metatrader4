@@ -32,11 +32,11 @@ RUN apt-get install -y nodejs
 RUN node --version
 RUN npm --version
 
-EXPOSE 8082
+#EXPOSE 8082
 EXPOSE 8081
 EXPOSE 8080 
-EXPOSE 80
-EXPOSE 443
+#EXPOSE 80
+#EXPOSE 443
 
 RUN set -ex; \
     wget -nc https://dl.winehq.org/wine-builds/winehq.key; \

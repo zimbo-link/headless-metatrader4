@@ -47,7 +47,7 @@ nl=$'\n'
 echo "${nl}IvInvest=$IVINVEST_ID${nl}WebHost=$IBOT_HOST${nl}WebPort=$IBOT_PORT${nl}" >> MQL4/Presets/ibot.set 
 echo "${nl}Login=$MT4_ACCOUNT${nl}Password=$MT4_PASSWORD${nl}" >> startup.ini 
 wine terminal /portable startup.ini &
-node MQL4/Node/server.js &
+node MQL4/Node/http_server.js &
 TERMINAL_PID=$!
 
 # Wait end of terminal

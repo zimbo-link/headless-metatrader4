@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MonkeyOne [ZIMBO]</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    * {
+      box-sizing: border-box;
+    }
+	body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+i{
+text-align: center;
+}
+	h5{
+		line-height:0.5em;
+		font-size:0.7em;
+	}
+	h1,h2,h3,h4,h5{
+
+text-align: center;
+	}
+    input[type=text], input[type=number], input[type=email], input[type=password], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      font-size: 1.2em;
+    }
+
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      font-size: 1.1em;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 16px;
+    }
+
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    .red {
+        color: red;
+    }
+    .green {
+        color: green;
+    }
+
+
+
+	table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+    </style>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+
+ <div id="neverland_ui">
+<h4>Real: 1165064</h4>
+<h2>Balance: $<span class="balance">...</span></h2>
+<h3>Profit: <span class="profit">...</span></h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Trade</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">History</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Settings</button>
+</div>
+
+<div id="London" class="tabcontent">
+	<div id="open1" class="trades" style="overflow-x:auto;"></div> 
+</div>
+
+<div id="Paris" class="tabcontent">
+	<div id="history1" class="history" style="overflow-x:auto;"></div>
+</div>
+
+<div id="Tokyo" class="tabcontent"> 
+	<div class="settings" style="overflow-x:auto;"></div>
+</div> 
+</body>
+</html>
+<script>
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+ window.monkey = {};
+  window.monkey.last = new Date().getTime();
+  window.monkey.closed =true;
+function connect() {
+  window.monkey.ws = new WebSocket('ws://localhost:8081');
+  window.monkey.ws.onopen = function() {
+    // subscribe to some channels
+  /*  ws.send(JSON.stringify({
+        //.... some message the I must send when I connect ....
+    })); */
+	 window.monkey.closed =false;
+	console.log("open");
+  };
+
+  window.monkey.ws.onmessage = function(e) {
+   // console.log('Message:', e.data);
+	window.monkey.last = new Date().getTime();
+	 window.monkey.closed =false;
+   var obj = JSON.parse( e.data );
+    $( "span.balance" ).html( (Math.round(obj.balance * 100) / 100).toFixed(2) );
+  $( "span.profit" ).html( (Math.round(obj.profit * 100) / 100).toFixed(2) );
+	if( obj.profit >= 0.0 ){
+    $( "span.profit" ).addClass( "green" );
+    $( "span.profit" ).removeClass( "red" );
+  }else{
+	$( "span.profit" ).addClass( "red" );
+	$( "span.profit" ).removeClass( "green" );
+  }
+  
+  var html1 = '<table>'+
+    '<tr>'+
+      '<th>Symbol</th>'+
+      '<th>Type</th>'+
+      '<th>Size</th>'+
+      '<th>Profit</th>'+
+    '</tr>';
+ var count = 0;
+	for( var r in obj.trades){
+		//console.log(obj.trades[r].symbol);
+		 var type = "BUY";
+		 var cls2 = "green";
+		 if( obj.trades[r].type == "1" ){
+			type = "SELL";
+			cls2 = "red";
+		 }
+
+		var cls = "red";
+		if( obj.trades[r].op >= 0 )
+			cls = "green";
+
+ html1 += '<tr>' + '<td>' + obj.trades[r].symbol + '</td>' + '<td  class="'+cls2+'">' + type + '</td>' + '<td>' + (Math.round(obj.trades[r].ol * 100) / 100).toFixed(2) + '</td>' + '<td class="'+cls+'">' +  (Math.round(obj.trades[r].op * 100) / 100).toFixed(2) + '</td>' + '</tr>';
+		/*
+		 html1 += '<table>'+
+    '<tr>'+
+      '<th>'+obj.trades[r].symbol+'</th>'+
+      '<th>'+type+'</th>'+
+      '<th>'+obj.trades[r].ol+'</th>'+
+      '<th>'+obj.trades[r].op+'</th>'+
+    '</tr>';
+	*/
+	count++;
+	/*
+		var type = "BUY";
+		 var cls2 = "green";
+		 if( obj.trades[r].type == "1" ){
+			type = "SELL";
+			cls2 = "red";
+		 }
+
+		var cls = "red";
+		if( obj.trades[r].profit >= 0 )
+			cls = "green";
+	
+		 html1 += '<tr>' + '<td>' + obj.trades[r].symbol + '</td>' + '<td  class="'+cls2+'">' + type + '</td>' + '<td>' + obj.trades[r].size + '</td>' + '<td class="'+cls+'">' +  (Math.round(obj.trades[r].profit * 100) / 100).toFixed(2) + '</td>' + '</tr>';
+		*/
+	 
+	} 
+	html1 += '</table>';
+	if( count > 0 )
+	 $( "#open1" ).html( html1 );
+  };
+
+  window.monkey.ws.onclose = function(e) {
+    console.log('Socket is closed. Reconnect will be attempted in 1 second.', e.reason);
+    window.monkey.closed = true;
+  };
+
+  window.monkey.ws.onerror = function(err) {
+   // console.error('Socket encountered error: ', err.message, 'Closing socket');
+   // ws.close();
+  };
+}
+
+setInterval(function() {
+var total = 0;
+	$.get( "getHistory.php", function( dta ) {
+	var data = JSON.parse(dta);
+ 
+		var html1 = '<table>'+
+    '<tr>'+
+      '<th>Symbol</th>'+
+      '<th>Type</th>'+
+      '<th>Size</th>'+
+      '<th>Profit</th>'+
+    '</tr>';
+ var count = 0;
+	for( var r in data){
+	
+		 var type = "BUY";
+		 var cls2 = "green";
+		 if( data[r][3] == "1" ){
+			type = "SELL";
+			cls2 = "red";
+		 }
+		total += data[r][5];
+		var cls = "red";
+		if( data[r][5] >= 0 )
+			cls = "green";
+
+ html1 += '<tr>' + '<td>' + data[r][2] + '</td>' + '<td  class="'+cls2+'">' + type + '</td>' + '<td>' + (Math.round(data[r][4] * 100) / 100).toFixed(2) + '</td>' + '<td class="'+cls+'">' +  (Math.round(data[r][5] * 100) / 100).toFixed(2) + '</td>' + '</tr>';
+
+	
+		count++;
+	}
+	cls = "green";
+	if( total < 0 )
+		cls = "red";
+	  html1 += '<tr>' + '<td colspan=3><b>Total</b></td>'  + '<td class="'+cls+'"><b>' +  (Math.round(total * 100) / 100).toFixed(2) + '</b></td>' + '</tr>';
+
+	  $( "#history1" ).html( html1 );
+	 
+	});
+	if( new Date().getTime() - window.monkey.last   > 6000 && window.monkey.closed){
+		if (window.monkey.ws === undefined || (window.monkey.ws && window.monkey.ws.readyState === 3)) {
+		connect();
+		}
+	 }
+}, 3000);
+connect();
+</script>
