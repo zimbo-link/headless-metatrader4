@@ -31,7 +31,8 @@ term_handler() {
 }
 
 trap 'term_handler' SIGTERM
-
+#SCREEN_NUM=1920
+#SCREEN_WHD=1080
 Xvfb $DISPLAY -screen $SCREEN_NUM $SCREEN_WHD \
     +extension GLX \
     +extension RANDR \
