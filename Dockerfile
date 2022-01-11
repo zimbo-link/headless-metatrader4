@@ -20,11 +20,7 @@ RUN set -ex; \
         xz-utils \
         xvfb \
         aptitude \
-        npm \
-        xfonts-base \
-        xfce4 \
-        xfce4-goodies \
-        tightvncserver
+        npm
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - 
 RUN apt-get install -y nodejs
@@ -35,8 +31,8 @@ RUN npm --version
 #EXPOSE 8082
 EXPOSE 8081
 EXPOSE 8080 
-#EXPOSE 80
-#EXPOSE 443
+EXPOSE 80
+EXPOSE 443
 
 RUN set -ex; \
     wget -nc https://dl.winehq.org/wine-builds/winehq.key; \

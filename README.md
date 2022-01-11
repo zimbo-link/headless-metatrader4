@@ -25,7 +25,7 @@ docker run -dit --env-file env.list \
     --cap-add=SYS_PTRACE \
     264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
 
-docker run -d -p 5900:5900 --rm --env-file env.list \
+docker run -d -p 443:443 --rm --env-file env.list \
     --cap-add=SYS_PTRACE \
     264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
  ```

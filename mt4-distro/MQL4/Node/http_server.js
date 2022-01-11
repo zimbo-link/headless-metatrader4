@@ -43,12 +43,18 @@ srvr = http.createServer(function onRequest(request, response) {
     request.addListener("data", function (data) {
         content.push(data); //Collect the incoming data
     });
-    if (request.url == "/getData") {
+    if (request.url == "/health") {
         response.writeHead(200, { 'Content-Type': 'text/plain' });
         response.writeHead(200, { 'Access-Control-Allow-Origin': '*' });
-        response.end('get data\n');
+        response.end('200 OK\n');
         return;
     }
+    /*if (request.url == "/") {
+        response.writeHead(200, { 'Content-Type': 'text/plain' });
+        response.writeHead(200, { 'Access-Control-Allow-Origin': '*' });
+        response.end('200 OK\n');
+        return;
+    }*/
     request.addListener("end", function () {
         response.writeHead(200, { "Content-Type": "text/plain" });
         ms = content[0];

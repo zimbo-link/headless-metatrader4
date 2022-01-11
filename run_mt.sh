@@ -47,8 +47,21 @@ nl=$'\n'
 #mv experts.ini config/
 echo "${nl}IvInvest=$IVINVEST_ID${nl}WebHost=$IBOT_HOST${nl}WebPort=$IBOT_PORT${nl}" >> MQL4/Presets/ibot.set 
 echo "${nl}Login=$MT4_ACCOUNT${nl}Password=$MT4_PASSWORD${nl}" >> startup.ini 
+#node MQL4/Node/https_health.js & 
+#node MQL4/Node/http_server.js & 
+#node MQL4/Node/https_wss.js & 
+#node MQL4/Node/http_health.js &  
+#node MQL4/Node/https_health.js &  
+#node MQL4/Node/http_wss.js &
+#node MQL4/Node/http_server.js &
+#node MQL4/Node/https_wss.js & 
+#node MQL4/Node/https_server2.js & >> /tmp/node.log 2>&1 &
+#nohup node MQL4/Node/https_server.js >> /tmp/node.log 2>&1 &
+#node MQL4/Node/express_https_server.js &
+#wine terminal /portable startup.ini &
+node MQL4/Node/wss_http_server.js &
 wine terminal /portable startup.ini &
-node MQL4/Node/http_server.js &
+
 TERMINAL_PID=$!
 
 # Wait end of terminal

@@ -1,9 +1,9 @@
 <chart>
-id=132860237757796759
+id=132862448973431378
 comment=
 symbol=USDJPY
 period=60
-leftpos=1385
+leftpos=1417
 digits=3
 scale=2
 graph=0
@@ -20,11 +20,11 @@ days=0
 descriptions=0
 shift_size=20
 fixed_pos=0
-window_left=44
-window_top=44
-window_right=855
-window_bottom=376
-window_type=3
+window_left=88
+window_top=88
+window_right=1419
+window_bottom=441
+window_type=1
 background_color=0
 foreground_color=16777215
 barup_color=65280
@@ -46,7 +46,7 @@ name=main
 </window>
 
 <expert>
-name=Neverland_304
+name=Neverland_304_https
 flags=343
 window_num=0
 <inputs>
