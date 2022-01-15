@@ -21,11 +21,3 @@ jobs:
           password: ${{ secrets.DOCKER_AUTH_GITHUB }}
           repository: zimbo-link/terminal-base
           tags: latest
-      - name: 'Build:dockerimage'
-        uses: docker/build-push-action@v1
-        with:
-          registry: ghcr.io
-          username: "trevone"
-          password: ${{ secrets.DOCKER_AUTH_GITHUB }}
-          repository: zimbo-link/terminal-base/terminal-distro
-          tags: latest

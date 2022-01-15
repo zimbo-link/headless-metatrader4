@@ -90,11 +90,11 @@ RUN set -e; \
     mkdir -p /tmp/screenshots/; \
     chown winer:winer /tmp/screenshots/
 
-FROM ghcr.io/zimbo-link/terminal-base:latest as terminal-distro
+#FROM ghcr.io/zimbo-link/terminal-base:latest as terminal-distro
 
-USER $USER
-WORKDIR $MT4DIR
-COPY mt4-distro $MT4DIR
-VOLUME /tmp/screenshots/
-ENTRYPOINT ["/bin/bash"]
-CMD ["/docker/run_mt.sh"]
+#USER $USER
+#WORKDIR $MT4DIR
+#COPY mt4-distro $MT4DIR
+#VOLUME /tmp/screenshots/
+#ENTRYPOINT ["/bin/bash"]
+#CMD ["/docker/run_mt.sh"]
