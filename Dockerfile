@@ -88,8 +88,6 @@ COPY run_mt.sh screenshot.sh /docker/
 RUN set -e; \
     chmod a+rx /docker/run_mt.sh /docker/screenshot.sh; \
     mkdir -p /tmp/screenshots/; \
-    mkdir -p /home/winer/.wine/drive_c/mt4/MQL4/; \
-    chown winer:winer /home/winer/.wine/drive_c/mt4/MQL4/; \
     chown winer:winer /tmp/screenshots/
 
 #FROM ghcr.io/zimbo-link/terminal-base:latest as terminal-distro
