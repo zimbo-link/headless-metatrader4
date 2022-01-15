@@ -19,8 +19,8 @@ MqlNet INet;
    DYNAMIC = 1 
 }; 
  extern int IvInvest=1;
- extern string WebHost="zimbo.loc.23b.io";
- extern int WebPort=80;
+ extern string WebHost="ibot.link";
+ extern int WebPort=443;
  string phrase = "";
  
  

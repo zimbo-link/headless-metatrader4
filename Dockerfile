@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-LABEL maintainer="sergey.nevmerzhitsky@gmail.com"
+FROM ubuntu:16.04 as terminal-base
+LABEL maintainer="t.f.schuil@gmail.com"
 
 WORKDIR /tmp/
 
@@ -89,17 +89,11 @@ RUN set -e; \
     chmod a+rx /docker/run_mt.sh /docker/screenshot.sh; \
     mkdir -p /tmp/screenshots/; \
     chown winer:winer /tmp/screenshots/
-
-
-
+    
+FROM terminal-base as terminal-distro
 USER $USER
 WORKDIR $MT4DIR
-COPY mt4-distro $MT4DIR 
-
+COPY mt4-distro $MT4DIR
 VOLUME /tmp/screenshots/
-
 ENTRYPOINT ["/bin/bash"]
 CMD ["/docker/run_mt.sh"]
-
-# @TODO Add ability to list logs which content should be redirected to STDOUT with a prefix
-# @TODO Add ability to change TZ of the OS

@@ -1,3 +1,26 @@
+
+
+```bash
+cat ~/ZIMBO.txt | docker login ghcr.io -u trevone --password-stdin
+
+aws ecr get-login-password --region eu-central-1 | docker login --username AWS --password-stdin 264605167596.dkr.ecr.eu-central-1.amazonaws.com
+```
+
+**Base**
+
+```bash
+docker build -t terminal-base .
+docker tag terminal-base:latest ghcr.io/zimbo-link/terminal-base:latest
+
+docker build -t terminal-distro .
+docker tag terminal-distro:latest ghcr.io/zimbo-link/terminal-base/terminal-distro:latest
+ 
+ 
+docker run -dit --env-file env.list \
+    --cap-add=SYS_PTRACE \
+    ghcr.io/zimbo-link/terminal-base/terminal-distro:latest
+```
+
 **Table of Contents**
 
 - [Headless MetaTrader 4 Terminal in wine](#headless-metatrader-4-terminal-in-wine)
@@ -25,9 +48,7 @@ docker run -dit --env-file env.list \
     --cap-add=SYS_PTRACE \
     264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
 
-docker run -d -p 443:443 --rm --env-file env.list \
-    --cap-add=SYS_PTRACE \
-    264605167596.dkr.ecr.eu-west-1.amazonaws.com/mt4-distro:latest
+ 
  ```
 
 # Headless MetaTrader 4 Terminal in wine

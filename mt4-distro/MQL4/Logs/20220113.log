@@ -1,0 +1,15 @@
+0	12:30:30.347	Expert Neverland_304_https GBPUSD,H1: loaded successfully
+0	12:30:30.347	Neverland_304_https GBPUSD,H1 inputs: IvInvest=1; WebHost=zimbo.loc.23b.io; WebPort=443; 
+0	12:30:30.890	Neverland_304_https GBPUSD,H1: zimbo.loc.23b.io-:200 OK
+0	12:30:30.890	Neverland_304_https GBPUSD,H1: initialized
+0	12:31:08.243	Neverland_304_https GBPUSD,H1: zimbo.loc.23b.io-:200 OK
+0	12:31:08.243	Neverland_304_https GBPUSD,H1: initialized
+0	12:35:09.062	Neverland_304_https GBPUSD,H1: uninit reason 9
+3	12:35:09.063	Neverland_304_https GBPUSD,H1: 115 undeleted objects left
+3	12:35:09.063	Neverland_304_https GBPUSD,H1: 1 object of type CProcess left
+3	12:35:09.063	Neverland_304_https GBPUSD,H1: 1 object of type CDisplay left
+3	12:35:09.063	Neverland_304_https GBPUSD,H1: 1 object of type CData left
+3	12:35:09.063	Neverland_304_https GBPUSD,H1: 28 objects of type CTrade left
+3	12:35:09.063	Neverland_304_https GBPUSD,H1: 56 objects of type CBuffer left
+3	12:35:09.063	Neverland_304_https GBPUSD,H1: 28 objects of type CVelocity left
+0	12:35:09.125	Expert Neverland_304_https GBPUSD,H1: removed

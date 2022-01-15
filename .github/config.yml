@@ -1,0 +1,1 @@
+COMMIT_MESSAGE_REGEX: /(breaking|feat|fix|refactor|config|test|docs|no-release){1}(\(\w+\)){0,1}(:{1}\s{1}.*){1}/g
