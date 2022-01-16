@@ -23,4 +23,5 @@ jobs:
        uses: docker/build-push-action@v2
        with:
          push: true
+         registry: ghcr.io
          tags: zimbo-link/terminal-base:latest
