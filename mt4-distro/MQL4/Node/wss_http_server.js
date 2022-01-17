@@ -2,16 +2,23 @@ const WebSocket = require("ws").Server;
 const HttpsServer = require('https').createServer;
 var http = require("http");
 const fs = require("fs");
+require('dotenv').config()
 var WS_PORT = 8081; 
 var HTTP_PORT = 8080;
 var clients = [];
 ///home/winer/.wine/drive_c/mt4/MQL4/Node/certs/loc.23b.io/privkey.pem'
-server = HttpsServer({
-    //cert: fs.readFileSync('/etc/letsencrypt/live/loc.23b.io/fullchain.pem'),
-    //key: fs.readFileSync('/etc/letsencrypt/live/loc.23b.io/privkey.pem')
-    cert: fs.readFileSync('/home/winer/.wine/drive_c/mt4/MQL4/Node/certs/prod.zimbo.link/fullchain.pem'),
-    key: fs.readFileSync('/home/winer/.wine/drive_c/mt4/MQL4/Node/certs/prod.zimbo.link/privkey.pem')
-})
+if(process.env.APP_ENV=='local'){
+    server = HttpsServer({
+        cert: fs.readFileSync('/etc/letsencrypt/live/loc.23b.io/fullchain.pem'),
+        key: fs.readFileSync('/etc/letsencrypt/live/loc.23b.io/privkey.pem')
+    })
+} else {
+    server = HttpsServer({
+        cert: fs.readFileSync('/home/winer/.wine/drive_c/mt4/MQL4/Node/certs/prod.zimbo.link/fullchain.pem'),
+        key: fs.readFileSync('/home/winer/.wine/drive_c/mt4/MQL4/Node/certs/prod.zimbo.link/privkey.pem')
+    })
+}
+
 socket = new WebSocket({
     server: server
 });
