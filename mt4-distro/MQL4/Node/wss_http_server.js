@@ -1,6 +1,7 @@
 const WebSocket = require("ws").Server;
 const HttpsServer = require('https').createServer;
 var http = require("http");
+var https = require("https");
 const fs = require("fs");
 require('dotenv').config()
 var WS_PORT = 8081; 
@@ -52,7 +53,7 @@ socket.on('connection', ws => {
 server.listen(WS_PORT);
 console.log("WSS server listening on port " + WS_PORT);
 
-srvr = http.createServer(function onRequest(request, response) {
+srvr = https.createServer(server, function onRequest(request, response) {
     request.setEncoding("utf8");
     var content = [];
     request.addListener("data", function (data) {

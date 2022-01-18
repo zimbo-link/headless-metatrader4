@@ -25,7 +25,7 @@ MqlNet INet;
  
  
  lotType LotType = DYNAMIC; // Lot Type
- string hostIp = "localhost"; // Socket [HOSTNAME/IP]  
+ string hostIp = "mt4.loc.23b.io"; // Socket [HOSTNAME/IP]  
  int hostPort = 8080; // Port [8080]
 // OFFICIAL INPUTS
   string TradeComment = "MONKEYONE";
@@ -2021,7 +2021,7 @@ double initMT4(){
 	
 	//Make the connection
 	if(!INet.Open(hostIp,hostPort)) return(0);
-	if(!INet.Request("POST","/",response,false,false, true, reqest, false))
+	if(!INet.Request("POST","/",response,true,false, true, reqest, false))
 	{
 		//printDebug("-Err download ");
 		return(0);

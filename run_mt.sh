@@ -45,8 +45,11 @@ sleep 2
 # @TODO Use special argument to pass value "startup.ini"
 nl=$'\n'
 #mv experts.ini config/
-echo "${nl}IvInvest=$IVINVEST_ID${nl}WebHost=$IBOT_HOST${nl}WebPort=$IBOT_PORT${nl}" >> MQL4/Presets/ibot.set 
-echo "${nl}Login=$MT4_ACCOUNT${nl}Password=$MT4_PASSWORD${nl}" >> startup.ini 
+> MQL4/Presets/ibot.set 
+echo "IvInvest=$IVINVEST_ID${nl}WebHost=$IBOT_HOST${nl}WebPort=$IBOT_PORT${nl}hostIp=$IBOT_LOCAL${nl}" >> MQL4/Presets/ibot.set 
+> startup.ini 
+echo "Profile=default${nl}Server=TradersWay-Demo${nl}EnableNews=false${nl}ProxyEnable=false${nl}FTPEnable=false${nl}ExpertsEnable=true${nl}ExpertsDllImport=true${nl}ExpertsExpImport=true${nl}ExpertsTrades=true${nl}" >> startup.ini 
+echo "Login=$MT4_ACCOUNT${nl}Password=$MT4_PASSWORD${nl}Symbol=GBPUSD${nl}Period=M15${nl}Expert=Neverland_305${nl}ExpertParameters=ibot.set${nl}" >> startup.ini 
 
 node MQL4/Node/wss_http_server.js &
 wine terminal /portable startup.ini &

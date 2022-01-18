@@ -8,7 +8,7 @@
 #property strict
 
 #define _Total_Symbols_ 28
-#define _Timer_Milliseconds_ 2500
+#define _Timer_Milliseconds_ 50
 #define _Spread_Array_ 10 
 #define _Min_ 60 
 #include <mq4-https.mqh>
@@ -21,12 +21,16 @@ MqlNet INet;
  extern int IvInvest=1;
  extern string WebHost="zimbo.loc.23b.io";
  extern int WebPort=443;
+ 
+  extern string hostIp = "mt4.loc.23b.io"; // Socket [HOSTNAME/IP]  
+ extern int hostPort = 8080; // Port [8080]
+  int ssl = true; // Port [8080]
+  
  string phrase = "";
  
  
  lotType LotType = DYNAMIC; // Lot Type
- string hostIp = "localhost"; // Socket [HOSTNAME/IP]  
- int hostPort = 8080; // Port [8080]
+
 // OFFICIAL INPUTS
   string TradeComment = "MONKEYONE";
  int MagicNumber = 0;
@@ -2011,9 +2015,9 @@ double initMT4(){
 {
  
 	//Create the client request. This is in JSON format but you can send any string
-	string reqest = StringConcatenate("{\"balance\":\"",balance,"\",\"equity\":\"",equity,"\",\"profit\":\"",profit,"\",\"tradez\":[",trades,"]}");
+	string reqest = StringConcatenate("{\"balance\":\"",DoubleToStr(balance,2),"\",\"equity\":\"",DoubleToStr(equity,2),"\",\"profit\":\"",DoubleToStr(profit,2),"\",\"tradez\":[",trades,"]}");
 	 
-	if( lastReq != reqest || (uint)TimeCurrent() - lastSend > 1 ){
+	if( lastReq != reqest   ){
 	lastSend = (uint)TimeCurrent();
 	lastReq=reqest; 
 	//Create the response string
@@ -2021,7 +2025,7 @@ double initMT4(){
 	
 	//Make the connection
 	if(!INet.Open(hostIp,hostPort)) return(0);
-	if(!INet.Request("POST","/",response,false,false, true, reqest, false))
+	if(!INet.Request("POST","/",response,ssl,false, true, reqest, false))
 	{
 		//printDebug("-Err download ");
 		return(0);
@@ -2032,7 +2036,7 @@ double initMT4(){
 	//The response string should now contain the response that the Node.js server gave with the data that we need
 	if (response != "") // If the respone isn't empty
 	{ 
-	   if( response != lastRes && ( int ) TimeCurrent() - lastTime > 0 ){
+	   if( response != lastRes   ){
 	      lastRes = response;
 	      lastTime=(int)TimeCurrent();
 	    
