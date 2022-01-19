@@ -52,7 +52,7 @@ echo "Profile=default${nl}Server=TradersWay-Demo${nl}EnableNews=false${nl}ProxyE
 echo "Login=$MT4_ACCOUNT${nl}Password=$MT4_PASSWORD${nl}Symbol=GBPUSD${nl}Period=M15${nl}Expert=Neverland_305${nl}ExpertParameters=ibot.set${nl}" >> startup.ini 
 
 node MQL4/Node/wss_http_server.js &
-wine terminal /portable startup.ini &
+wine terminal /portable startup.ini > /dev/null 2>&1 &
 
 TERMINAL_PID=$!
 
